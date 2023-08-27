@@ -10,14 +10,14 @@ public class PlayerMovement : MonoBehaviour
     public PlayerTPLocationDefinition PlayerTP;
     public static float SpeedMultiplier = 10;
     
-    public Boolean isInPast = true;
-    public static float futureTPOffset = 70;
-
+    public bool isInPast = true;
     private Rigidbody2D playerBody ;
 
     public GameObject PlayerLocationMarker;
 
     public float TeleportSafeZone = 1.0f;
+
+    public static Vector3 TeleportOffset = new Vector3(47,0,0);
 
     void Start()
     {
@@ -30,11 +30,7 @@ public class PlayerMovement : MonoBehaviour
 
     public void OnAbilityButton( InputAction.CallbackContext cbc){
         Debug.Log("Ability Use");
-
-        Debug.Log(
-            Physics2D.IsTouchingLayers(PlayerTP.Collider,LayerMask.GetMask("GameWalls"))
-        );
-
+        
         if (Physics2D.IsTouchingLayers(PlayerTP.Collider,LayerMask.GetMask("GameWalls"))) {
             return;
         }
@@ -43,15 +39,10 @@ public class PlayerMovement : MonoBehaviour
         isInPast = !isInPast;
     }
 
-    private static Vector3 getTPLocation( GameObject player, Boolean isInPast){
-        return new Vector3(
-            player.gameObject.transform.position.x + 
-                (isInPast ? PlayerMovement.futureTPOffset : - PlayerMovement.futureTPOffset) ,
-
-            player.gameObject.transform.position.y,
-            player.gameObject.transform.position.z
-        );
-        
+    private static Vector3 getTPLocation( GameObject player, bool isInPast){
+        return 
+            player.transform.position 
+            + ( isInPast? TeleportOffset : -TeleportOffset);
     }
 
     private void FixedUpdate(){
