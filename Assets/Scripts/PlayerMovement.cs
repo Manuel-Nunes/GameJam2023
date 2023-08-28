@@ -7,7 +7,7 @@ using UnityEngine.PlayerLoop;
 
 public class PlayerMovement : MonoBehaviour
 {
-    public PlayerTPLocationDefinition PlayerTP;
+    public PlayerTeleporationTarget PlayerTP;
     public static float SpeedMultiplier = 10;
     
     public bool isInPast = true;
