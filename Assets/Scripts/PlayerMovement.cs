@@ -46,6 +46,6 @@ public class PlayerMovement : MonoBehaviour
     }
 
     private void FixedUpdate(){
-        PlayerLocationMarker.transform.position = getTPLocation( this.gameObject, IsInPast);
+        PlayerLocationMarker.transform.position = GetTPLocation( this.gameObject, IsInPast);
     }
 }

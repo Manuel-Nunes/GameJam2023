@@ -30,7 +30,7 @@ Transform:
   m_GameObject: {fileID: 4678032463253488410}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.36, y: 0, z: 0}
+  m_LocalPosition: {x: 27.36, y: -5.99, z: -9}
   m_LocalScale: {x: 5, y: 5, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -128,7 +128,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PlayerTP: {fileID: 0}
-  isInPast: 1
+  IsInPast: 1
   PlayerLocationMarker: {fileID: 0}
   TeleportSafeZone: 1
 --- !u!114 &4916115701198092090
