@@ -43,7 +43,6 @@
      <Compile Include="Assets\Scripts\PlayerTeleporationTarget.cs" />
      <Compile Include="Assets\Scripts\ScreenToPlayerCam.cs" />
      <Compile Include="Assets\Scripts\PlayerMovement.cs" />
-     <Compile Include="Assets\Scripts\PlayerGhostStructure.cs" />
     <Reference Include="UnityEngine">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.7f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>

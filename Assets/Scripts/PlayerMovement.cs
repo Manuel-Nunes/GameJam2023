@@ -10,8 +10,8 @@ public class PlayerMovement : MonoBehaviour
     public PlayerTeleporationTarget PlayerTP;
     public static float SpeedMultiplier = 10;
     
-    public bool isInPast = true;
-    private Rigidbody2D playerBody ;
+    public bool IsInPast = true;
+    private Rigidbody2D PlayerBody ;
 
     public GameObject PlayerLocationMarker;
 
@@ -21,11 +21,11 @@ public class PlayerMovement : MonoBehaviour
 
     void Start()
     {
-        playerBody = GameObject.FindGameObjectWithTag("Player").GetComponent<Rigidbody2D>();
+        PlayerBody = GameObject.FindGameObjectWithTag("Player").GetComponent<Rigidbody2D>();
     }
 
     public void OnMoveButton( InputAction.CallbackContext cbc){
-        playerBody.velocity = SpeedMultiplier * cbc.ReadValue<Vector2>();
+        PlayerBody.velocity = SpeedMultiplier * cbc.ReadValue<Vector2>();
     }
 
     public void OnAbilityButton( InputAction.CallbackContext cbc){
@@ -35,17 +35,17 @@ public class PlayerMovement : MonoBehaviour
             return;
         }
             
-        this.transform.position = getTPLocation( this.gameObject, isInPast);
-        isInPast = !isInPast;
+        this.transform.position = GetTPLocation( this.gameObject, IsInPast);
+        IsInPast = !IsInPast;
     }
 
-    private static Vector3 getTPLocation( GameObject player, bool isInPast){
+    private static Vector3 GetTPLocation( GameObject Player, bool IsInPast){
         return 
-            player.transform.position 
-            + ( isInPast? TeleportOffset : -TeleportOffset);
+            Player.transform.position 
+            + ( IsInPast? TeleportOffset : -TeleportOffset);
     }
 
     private void FixedUpdate(){
-        PlayerLocationMarker.transform.position = getTPLocation( this.gameObject, isInPast);
+        PlayerLocationMarker.transform.position = getTPLocation( this.gameObject, IsInPast);
     }
 }
