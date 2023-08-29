@@ -1,0 +1,2736 @@
+fileFormatVersion: 2
+guid: 32ba7cc74ccfaf6458d87e3a9c1019b2
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: intbuilding7a_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 362
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d4f871575bf8a74e852366b8fc8a117
+      internalID: 1792512711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: intbuilding7a_1
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 362
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6588c878743375f4b9bcff2a818456f9
+      internalID: 389956830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: intbuilding7a_2
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 362
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0b8759362d6d634d8bf6b1066effab5
+      internalID: 1272547295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: intbuilding7a_3
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 362
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2ef020b634b5d04ca39c28b776a4ba5
+      internalID: -290389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: intbuilding7a_4
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 362
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ebd104730fbae643b54f32a10bdb7ef
+      internalID: -1765086945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: intbuilding7a_5
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 362
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c3cdf3fef3d505448bc86f17809a1b2
+      internalID: 543329226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: intbuilding7a_6
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 362
+        width: 44
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cd87f7bc9906ba48bd4f6d1bbf3c186
+      internalID: -1715486529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: intbuilding7a_7
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 362
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52ca4365e977a0d4888a87394a31ee14
+      internalID: -1015464549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: intbuilding7a_8
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 362
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa94caf783af6ba4d9c891f15f546fd2
+      internalID: -1760661642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: intbuilding7a_9
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 362
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 883d001e035052243b5aa3ec5ef82350
+      internalID: 1868200106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: intbuilding7a_10
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 326
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c32d84102b9c2c842ba27efb5cbbc57c
+      internalID: -517609791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: intbuilding7a_11
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 326
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6804641d6f8c3204eabebbbd1a837df1
+      internalID: -2015612833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: intbuilding7a_12
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 326
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42760ec030fd8ec4b9566425f1c38494
+      internalID: -1902119121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: intbuilding7a_13
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 326
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd4f8f24e2f6dc04b9893310b57e5c11
+      internalID: -1972688511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: intbuilding7a_14
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 326
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa514ea9ca48eb941b4e309e084a4c0e
+      internalID: -150899318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: intbuilding7a_15
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 326
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adf2b8004622d584b84f7961fc70fca4
+      internalID: -89800258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: intbuilding7a_16
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 334
+        width: 5
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 602843aae6a6fb54381ce0f6bc316932
+      internalID: -1035361652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: intbuilding7a_17
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 328
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c713aa1e78b4f445951a485a50e8854
+      internalID: 7374580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: intbuilding7a_18
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 330
+        width: 5
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9498342f4bb85e2448e31adffe54dd8c
+      internalID: 993276570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: intbuilding7a_19
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 326
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 602549980655a29428a6dd4451455dd8
+      internalID: -1970139183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: intbuilding7a_20
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 326
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df7b7ea33eca15a43892c664de33cbe4
+      internalID: 2115425360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: intbuilding7a_21
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 326
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 939f13157fcc29f45bec589da9acbdab
+      internalID: -1250100151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: intbuilding7a_22
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 290
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00bea997163a23641842988ab17af061
+      internalID: -286921497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: intbuilding7a_23
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 290
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e57e74eecae6700458ef75e32903a759
+      internalID: -1924974935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: intbuilding7a_24
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 290
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9cdabccf4fc37748bb9f5ae3f3a935c
+      internalID: 1586036224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: intbuilding7a_25
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 290
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc8c85aece1fc8f45807952bc29e91d5
+      internalID: -957398696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: intbuilding7a_26
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 290
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daadfc12e2f3c9f45889ff1ed16d6b0b
+      internalID: 506622523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: intbuilding7a_27
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 290
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f07c2e6a1a83b5b4e88bc3aef8873c7f
+      internalID: 1819740907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: intbuilding7a_28
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 290
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbcaff30d9889f84da3318a1a33ee220
+      internalID: -1770174767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: intbuilding7a_29
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 290
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45bb3c5aacf25594d9a5f4c6543906a4
+      internalID: 1270432362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: intbuilding7a_30
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 290
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3ae852b8bbed8342b8825f3a4ad8c88
+      internalID: -73661735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: intbuilding7a_31
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 254
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d38bc43c964fad84ca532ca6ad6b1cd9
+      internalID: -272398794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: intbuilding7a_32
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 254
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0ac66be471c56246a8ae8fd7c725272
+      internalID: -1434837679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: intbuilding7a_33
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 254
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d3a5207b7710b647a516c0630d3b51c
+      internalID: -861770873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: intbuilding7a_34
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 254
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d4225bd70ba6b945a090544cc6d87aa
+      internalID: -1389951494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: intbuilding7a_35
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 254
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 826ec43aec500cf4d97804214150199e
+      internalID: -869587997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: intbuilding7a_36
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 254
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1ba00594e17d924393a5c2e712e6dea
+      internalID: 488495454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: intbuilding7a_37
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 254
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f4572d80de5d5841bfbdd883ed7e320
+      internalID: -2078082801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: intbuilding7a_38
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 254
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 232ab5399011f144eb2b668e3a4676d8
+      internalID: -606607130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: intbuilding7a_39
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 180
+        width: 65
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3de455700f33e484bb6db32216ae2079
+      internalID: 693884865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: intbuilding7a_40
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 218
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3214fdef2ac2b7246bae0a82e17d5b22
+      internalID: -1587711691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: intbuilding7a_41
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 218
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07d7e0ec14506f64899a7ef1c056d3a8
+      internalID: -380760211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: intbuilding7a_42
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 218
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d30b4f7cb143f342bb0426e6d611a42
+      internalID: 1207670469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: intbuilding7a_43
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 218
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ee570f7492950e4b83f43219a88d45d
+      internalID: -1553302175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: intbuilding7a_44
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 218
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5a1742e5ac6cb24dbc15a9eeea3e0d3
+      internalID: 684303132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: intbuilding7a_45
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 218
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 508a4b1c75343ec44bb38717003a6f2b
+      internalID: 1717540642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: intbuilding7a_46
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 218
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17b556a19a3d40543b8f70eab6bab2eb
+      internalID: 1724442656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: intbuilding7a_47
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 182
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84e3024622159a54e84f2a0aaa2463aa
+      internalID: -1230127690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: intbuilding7a_48
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 182
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aed7681c070192b42a903367d7f543cd
+      internalID: 1224137045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: intbuilding7a_49
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 182
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e45daecfc6fc81549968866f80b498b0
+      internalID: 212315463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: intbuilding7a_50
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 182
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a89b20e0eda7764395cf6771598d96c
+      internalID: -1023790362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: intbuilding7a_51
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 182
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c459044397ae8e74498093ce610e82ed
+      internalID: 892726375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: intbuilding7a_52
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 182
+        width: 8
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca656b21683d7e645b7e0822e7d3fd94
+      internalID: 1218616421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: intbuilding7a_53
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 182
+        width: 8
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 187407d9687d4de4e86e531eaec4c3f3
+      internalID: -1705167257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: intbuilding7a_54
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 182
+        width: 8
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7eb95e70919e51b40a22c05c13b4f16c
+      internalID: -102164125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: intbuilding7a_55
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 182
+        width: 8
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a2e3d70d2d45594bae710a7bec51f81
+      internalID: 437176375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: intbuilding7a_56
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 182
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b77a18c2ce74b245879380e8d7631c3
+      internalID: 1577081755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: intbuilding7a_57
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 182
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e13f6ee5aca95f0438a0205fb244f96f
+      internalID: -1319769736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: intbuilding7a_58
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 182
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0a2a7abf2e2f924fba6d3c3f68e5076
+      internalID: 433296349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: intbuilding7a_59
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 146
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36768c00d2b19834cb6c9f31befa1ce6
+      internalID: -47012499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: intbuilding7a_60
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 146
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7394d39aa94a9cd498e0312b0d68641a
+      internalID: -264966316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: intbuilding7a_61
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 146
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35959341900add94393d7850e36ef3bc
+      internalID: -866750449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: intbuilding7a_62
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 146
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2a5eac46ceaf1045a3eaa57e3f0e821
+      internalID: -2113339441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: intbuilding7a_63
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 146
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64e1f39119073c145b6f0f88ade96ead
+      internalID: 273912756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: intbuilding7a_64
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 146
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 860ce484b3bcda44b97a6349d18b1dc8
+      internalID: -955995327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: intbuilding7a_65
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 146
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1d9a2252d0a19547b863df2a1febbb0
+      internalID: -1770764595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: intbuilding7a_66
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 146
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da546658d57704c44afadbded44d9b64
+      internalID: 1089276525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: intbuilding7a_67
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 146
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6104949bad00a474c8d46b7ecf5afdc9
+      internalID: 1817406436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: intbuilding7a_68
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 146
+        width: 65
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cc5b42b95edd734999935b30a6badb6
+      internalID: -973717364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: intbuilding7a_69
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 154
+        width: 32
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee91eb231c686c845ac812346a43a781
+      internalID: 608733392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: intbuilding7a_70
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 146
+        width: 29
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1a265b5ff1d68d458c561cdc013eba2
+      internalID: 852014672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: intbuilding7a_71
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 110
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e29b1d9c8f635aa43b4a780db316befa
+      internalID: 1009891994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: intbuilding7a_72
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 110
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f339705079ec134f80efd7de0bd8abb
+      internalID: -1422524713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: intbuilding7a_73
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 110
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1700870edb6d6f2448a41cd4890efbae
+      internalID: -1693068372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: intbuilding7a_74
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 110
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e90fae823574ed04e9160f507fcded3e
+      internalID: 928660084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: intbuilding7a_75
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 110
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 730035d713bf57246b897f4ee13627a1
+      internalID: -497633110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: intbuilding7a_76
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 110
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 030bdc68f45b4ed47aa599bee9a66864
+      internalID: 1922756506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: intbuilding7a_77
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 110
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 331905afd6f983c42b53f4582c7f686d
+      internalID: 1322107970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: intbuilding7a_78
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 110
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8358da9388274148b09cef82bfc8781
+      internalID: 1860156458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: intbuilding7a_79
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 110
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 568e837f75691e64bb99b4242d81dbdf
+      internalID: -862589101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: intbuilding7a_80
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 110
+        width: 7
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9329cf331c72a544b2ac5b4a0b3ac5d
+      internalID: -433837973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: intbuilding7a_81
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 110
+        width: 7
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69f0dd968490f5e4592bedf2bc4c49ca
+      internalID: -1816986748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: intbuilding7a_82
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 74
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3c98b13e3a86c845b2735064bef34a4
+      internalID: -1972963112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: intbuilding7a_83
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 74
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02e871671546e264fba7d3310ea73567
+      internalID: 1189039098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: intbuilding7a_84
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 74
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c31d361ee81f7944b992c68e09c8037
+      internalID: -1830735748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: intbuilding7a_85
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 74
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02d1dbb0bfdaaf24fb23fb470bc0592b
+      internalID: 257427088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: intbuilding7a_86
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 74
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8974f189c9259c4448e89174cb41a6de
+      internalID: 802060716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: intbuilding7a_87
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 74
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72ed4e4159941f9488753820be59c081
+      internalID: -1989265939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: intbuilding7a_88
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 74
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6098b6db4400fa14b93f1e6609431c43
+      internalID: 366264405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: intbuilding7a_89
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 74
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a8372f2be132d540ba705e722b64667
+      internalID: -1846507838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: intbuilding7a_90
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 74
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48eb521b9fecf114680db516baae797f
+      internalID: 2145075976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: intbuilding7a_91
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 74
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12f8677bcc75802418d10e50d932f4b1
+      internalID: 1971751137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: intbuilding7a_92
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 74
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4f91ff3ab282744a8645370bb868b52
+      internalID: -173096168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: intbuilding7a_93
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 74
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4104d8b8cfd4399429bf301228ee11ce
+      internalID: 1852178944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: intbuilding7a_94
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 38
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eec4e7ec362cf474fbc458edafa3c52b
+      internalID: -614016628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: intbuilding7a_95
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 38
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5571a783a0895a64dbebc545e3d25481
+      internalID: -1168491900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: intbuilding7a_96
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 38
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f8b2f775c618bd46b96f1362b6c6fbb
+      internalID: 1749468785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: intbuilding7a_97
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 38
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d26916538cda4d4a93de31669d2391c
+      internalID: -502403429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: intbuilding7a_98
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 38
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ace062e146858b84aba240edd876332a
+      internalID: -2076835127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: intbuilding7a_99
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 38
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f25acf22000c49f4c8bebbbebc3e9dd5
+      internalID: 323911236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: intbuilding7a_100
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 38
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6575043eaff48a74a8eaa991da7f7dcd
+      internalID: 1888722155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: intbuilding7a_101
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 38
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ec8a8505d06ed746a74ce034f342dea
+      internalID: -1820314457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: intbuilding7a_102
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 38
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f77c6d96a7cd104fb1b2e4181735e92
+      internalID: 1898792757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: intbuilding7a_103
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 38
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14bfc70263dd79844824cfe77386dc1f
+      internalID: -1424990520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: intbuilding7a_104
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 38
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09b92f4c8cbf846419dda090792cbc18
+      internalID: 2045935106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: intbuilding7a_105
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 38
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb8c84f8be86ff24f8fc939c11d5bca9
+      internalID: -60382306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: intbuilding7a_106
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 2
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d7c7b96ebf93cd4187585cc60818792
+      internalID: -1556621497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: intbuilding7a_107
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 2
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bccadd27760d244790aa0269bbb1568
+      internalID: 705531944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: intbuilding7a_108
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 2
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9dfa9c004bf6fe4b81dc13ea59a980d
+      internalID: 1196169745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: intbuilding7a_109
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 2
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4149006047160df4f94971724b17d413
+      internalID: 1025494615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: intbuilding7a_110
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 2
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 124cc3321c95d0b4cadb02df1b27a2b2
+      internalID: -609066847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: intbuilding7a_111
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 2
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11de0e4d1f9bbc3458f885436e2569fe
+      internalID: 27188611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: intbuilding7a_112
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 2
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5762497ba86fdfa4bbea445500b55c4e
+      internalID: -1104855116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: intbuilding7a_113
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 2
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5f219caf82b02e4a88968b84cf4b33b
+      internalID: 1985040810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: intbuilding7a_114
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 2
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0a07d0f634b926489a41d3067794dc8
+      internalID: -1671783901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: intbuilding7a_115
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 2
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ac23943974f4574383418675dfd1627
+      internalID: -578544869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: intbuilding7a_116
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 2
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 525bf56a32a54b34e9c41a63e8c28b29
+      internalID: 1519562106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: intbuilding7a_117
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 2
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb6c5ab948b395643b643f36674d7b49
+      internalID: -1294422039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      intbuilding7a_0: 1792512711
+      intbuilding7a_1: 389956830
+      intbuilding7a_10: -517609791
+      intbuilding7a_100: 1888722155
+      intbuilding7a_101: -1820314457
+      intbuilding7a_102: 1898792757
+      intbuilding7a_103: -1424990520
+      intbuilding7a_104: 2045935106
+      intbuilding7a_105: -60382306
+      intbuilding7a_106: -1556621497
+      intbuilding7a_107: 705531944
+      intbuilding7a_108: 1196169745
+      intbuilding7a_109: 1025494615
+      intbuilding7a_11: -2015612833
+      intbuilding7a_110: -609066847
+      intbuilding7a_111: 27188611
+      intbuilding7a_112: -1104855116
+      intbuilding7a_113: 1985040810
+      intbuilding7a_114: -1671783901
+      intbuilding7a_115: -578544869
+      intbuilding7a_116: 1519562106
+      intbuilding7a_117: -1294422039
+      intbuilding7a_12: -1902119121
+      intbuilding7a_13: -1972688511
+      intbuilding7a_14: -150899318
+      intbuilding7a_15: -89800258
+      intbuilding7a_16: -1035361652
+      intbuilding7a_17: 7374580
+      intbuilding7a_18: 993276570
+      intbuilding7a_19: -1970139183
+      intbuilding7a_2: 1272547295
+      intbuilding7a_20: 2115425360
+      intbuilding7a_21: -1250100151
+      intbuilding7a_22: -286921497
+      intbuilding7a_23: -1924974935
+      intbuilding7a_24: 1586036224
+      intbuilding7a_25: -957398696
+      intbuilding7a_26: 506622523
+      intbuilding7a_27: 1819740907
+      intbuilding7a_28: -1770174767
+      intbuilding7a_29: 1270432362
+      intbuilding7a_3: -290389
+      intbuilding7a_30: -73661735
+      intbuilding7a_31: -272398794
+      intbuilding7a_32: -1434837679
+      intbuilding7a_33: -861770873
+      intbuilding7a_34: -1389951494
+      intbuilding7a_35: -869587997
+      intbuilding7a_36: 488495454
+      intbuilding7a_37: -2078082801
+      intbuilding7a_38: -606607130
+      intbuilding7a_39: 693884865
+      intbuilding7a_4: -1765086945
+      intbuilding7a_40: -1587711691
+      intbuilding7a_41: -380760211
+      intbuilding7a_42: 1207670469
+      intbuilding7a_43: -1553302175
+      intbuilding7a_44: 684303132
+      intbuilding7a_45: 1717540642
+      intbuilding7a_46: 1724442656
+      intbuilding7a_47: -1230127690
+      intbuilding7a_48: 1224137045
+      intbuilding7a_49: 212315463
+      intbuilding7a_5: 543329226
+      intbuilding7a_50: -1023790362
+      intbuilding7a_51: 892726375
+      intbuilding7a_52: 1218616421
+      intbuilding7a_53: -1705167257
+      intbuilding7a_54: -102164125
+      intbuilding7a_55: 437176375
+      intbuilding7a_56: 1577081755
+      intbuilding7a_57: -1319769736
+      intbuilding7a_58: 433296349
+      intbuilding7a_59: -47012499
+      intbuilding7a_6: -1715486529
+      intbuilding7a_60: -264966316
+      intbuilding7a_61: -866750449
+      intbuilding7a_62: -2113339441
+      intbuilding7a_63: 273912756
+      intbuilding7a_64: -955995327
+      intbuilding7a_65: -1770764595
+      intbuilding7a_66: 1089276525
+      intbuilding7a_67: 1817406436
+      intbuilding7a_68: -973717364
+      intbuilding7a_69: 608733392
+      intbuilding7a_7: -1015464549
+      intbuilding7a_70: 852014672
+      intbuilding7a_71: 1009891994
+      intbuilding7a_72: -1422524713
+      intbuilding7a_73: -1693068372
+      intbuilding7a_74: 928660084
+      intbuilding7a_75: -497633110
+      intbuilding7a_76: 1922756506
+      intbuilding7a_77: 1322107970
+      intbuilding7a_78: 1860156458
+      intbuilding7a_79: -862589101
+      intbuilding7a_8: -1760661642
+      intbuilding7a_80: -433837973
+      intbuilding7a_81: -1816986748
+      intbuilding7a_82: -1972963112
+      intbuilding7a_83: 1189039098
+      intbuilding7a_84: -1830735748
+      intbuilding7a_85: 257427088
+      intbuilding7a_86: 802060716
+      intbuilding7a_87: -1989265939
+      intbuilding7a_88: 366264405
+      intbuilding7a_89: -1846507838
+      intbuilding7a_9: 1868200106
+      intbuilding7a_90: 2145075976
+      intbuilding7a_91: 1971751137
+      intbuilding7a_92: -173096168
+      intbuilding7a_93: 1852178944
+      intbuilding7a_94: -614016628
+      intbuilding7a_95: -1168491900
+      intbuilding7a_96: 1749468785
+      intbuilding7a_97: -502403429
+      intbuilding7a_98: -2076835127
+      intbuilding7a_99: 323911236
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
