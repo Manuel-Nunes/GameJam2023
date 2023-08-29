@@ -35,17 +35,17 @@ public class PlayerMovement : MonoBehaviour
             return;
         }
             
-        this.transform.position = GetTPLocation( this.gameObject, IsInPast);
+        this.transform.position = GetTeleportLocation( this.gameObject, IsInPast);
         IsInPast = !IsInPast;
     }
 
-    private static Vector3 GetTPLocation( GameObject Player, bool IsInPast){
+    private static Vector3 GetTeleportLocation( GameObject Player, bool IsInPast){
         return 
             Player.transform.position 
             + ( IsInPast? TeleportOffset : -TeleportOffset);
     }
 
     private void FixedUpdate(){
-        PlayerLocationMarker.transform.position = GetTPLocation( this.gameObject, IsInPast);
+        PlayerLocationMarker.transform.position = GetTeleportLocation( this.gameObject, IsInPast);
     }
 }
