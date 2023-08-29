@@ -7,7 +7,7 @@ using UnityEngine.PlayerLoop;
 
 public class PlayerMovement : MonoBehaviour
 {
-    public PlayerTeleporationTarget PlayerTP;
+    public PlayerTeleporationTarget PlayerTeleportTarget;
     public static float SpeedMultiplier = 10;
     
     public bool IsInPast = true;
@@ -31,7 +31,7 @@ public class PlayerMovement : MonoBehaviour
     public void OnAbilityButton( InputAction.CallbackContext cbc){
         Debug.Log("Ability Use");
         
-        if (Physics2D.IsTouchingLayers(PlayerTP.Collider,LayerMask.GetMask("GameWalls"))) {
+        if (Physics2D.IsTouchingLayers(PlayerTeleportTarget.Collider,LayerMask.GetMask("GameWalls"))) {
             return;
         }
             
