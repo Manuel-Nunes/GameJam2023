@@ -13,8 +13,6 @@ public class PlayerMovement : MonoBehaviour
     public bool IsInPast = true;
     private Rigidbody2D PlayerBody ;
 
-    public GameObject PlayerLocationMarker;
-
     public float TeleportSafeZone = 1.0f;
 
     public static Vector3 TeleportOffset = new Vector3(47,0,0);
@@ -46,6 +44,6 @@ public class PlayerMovement : MonoBehaviour
     }
 
     private void FixedUpdate(){
-        PlayerLocationMarker.transform.position = GetTeleportLocation( this.gameObject, IsInPast);
+        PlayerTeleportTarget.transform.position = GetTeleportLocation( this.gameObject, IsInPast);
     }
 }
