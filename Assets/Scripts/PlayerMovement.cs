@@ -29,7 +29,7 @@ public class PlayerMovement : MonoBehaviour
     public void OnAbilityButton( InputAction.CallbackContext cbc){
         Debug.Log("Ability Use");
         
-        if (PlayerTeleportTarget != null && Physics2D.IsTouchingLayers(PlayerTeleportTarget.Collider,LayerMask.GetMask("GameWalls"))) {
+        if (Physics2D.IsTouchingLayers(PlayerTeleportTarget.Collider,LayerMask.GetMask("GameWalls"))) {
             return;
         }
             
@@ -44,9 +44,6 @@ public class PlayerMovement : MonoBehaviour
     }
 
     private void FixedUpdate(){
-        if (PlayerTeleportTarget != null)
-        {
-            PlayerTeleportTarget.transform.position = GetTeleportLocation(this.gameObject, IsInPast);
-        }
+        PlayerTeleportTarget.transform.position = GetTeleportLocation(this.gameObject, IsInPast);
     }
 }
