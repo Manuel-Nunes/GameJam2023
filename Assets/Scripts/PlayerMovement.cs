@@ -57,6 +57,6 @@ public class PlayerMovement : MonoBehaviour
     }
 
     private void FixedUpdate(){
-        PlayerTeleportTarget.transform.position = GetTeleportLocation( this.gameObject, IsInPast);
+        PlayerTeleportTarget.transform.position = GetTeleportLocation(this.gameObject, IsInPast);
     }
 }
