@@ -39,7 +39,6 @@ public class LeverDoorController : MonoBehaviour
 
     private void AnimateDoor()
     {
-        Debug.Log(isDoorOpen);
         if (isDoorOpen) {
             CloseDoor();
         }
