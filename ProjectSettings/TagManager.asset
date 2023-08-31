@@ -6,6 +6,7 @@ TagManager:
   tags:
   - PlayerGhost
   - WallTag
+  - Interactable
   layers:
   - Default
   - TransparentFX
