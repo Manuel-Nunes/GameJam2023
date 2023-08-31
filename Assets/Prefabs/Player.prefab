@@ -127,9 +127,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 42018e27c5c7dbb4eb7782362c18bea9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PlayerTP: {fileID: 0}
+  PlayerTeleportTarget: {fileID: 2659153376277092273, guid: bf17c9fa6ab0061498daade4d1fe1e35, type: 3}
   IsInPast: 1
-  PlayerLocationMarker: {fileID: 0}
   TeleportSafeZone: 1
 --- !u!114 &4916115701198092090
 MonoBehaviour:
