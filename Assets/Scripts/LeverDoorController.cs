@@ -13,6 +13,8 @@ public class LeverDoorController : MonoBehaviour
     public AudioClip DoorOpen;
     public AudioClip DoorClose;
 
+    public Animator DoorAnimator;
+
     private AudioSource source;
 
     void Start()
@@ -27,6 +29,9 @@ public class LeverDoorController : MonoBehaviour
 
         // audio 
         source = gameObject.AddComponent<AudioSource>();
+
+        // Initialize Door animation to false
+        DoorAnimator.SetBool("DoorIsOpen", false);
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -55,6 +60,8 @@ public class LeverDoorController : MonoBehaviour
         lever.transform.Rotate(0, 0, 90);
         leverDoor.transform.Rotate(0, 0, 90);
         isDoorOpen = true;
+        DoorAnimator.SetBool("DoorIsOpen", true);
+        
     }
 
     private void CloseDoor()
@@ -64,5 +71,7 @@ public class LeverDoorController : MonoBehaviour
         lever.transform.Rotate(0, 0, -90);
         leverDoor.transform.Rotate(0, 0, -90);
         isDoorOpen = false;
+
+        DoorAnimator.SetBool("DoorIsOpen", false);
     }
 }

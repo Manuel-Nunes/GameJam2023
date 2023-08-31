@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 0707e062ad4deae4b99300d8cd9546ff
+guid: 97892e57153018f41bebd17631d0f9dc
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -43,12 +43,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 24
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -70,7 +70,7 @@ TextureImporter:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
-    resizeAlgorithm: 1
+    resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
     compressionQuality: 50
@@ -123,494 +123,11 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: slime_0
+      name: Civilian2(black)_Attack_0
       rect:
         serializedVersion: 2
-        x: 8
-        y: 136
-        width: 16
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8071d11ba5cd56c48b282a2e137808c7
-      internalID: 788231355
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: slime_1
-      rect:
-        serializedVersion: 2
-        x: 40
-        y: 136
-        width: 16
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ba4a0b04925b6a54d9e8ce81845a53c0
-      internalID: 1215381375
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: slime_2
-      rect:
-        serializedVersion: 2
-        x: 72
-        y: 136
-        width: 16
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7fdb755bf03071643a4c630e58e67b8c
-      internalID: -824837714
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: slime_3
-      rect:
-        serializedVersion: 2
-        x: 104
-        y: 136
-        width: 16
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 387da632e40fc794fa516b740b745aa1
-      internalID: 1153489282
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: slime_4
-      rect:
-        serializedVersion: 2
-        x: 6
-        y: 104
-        width: 20
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0320f493085c30c4998b6299f8819b3d
-      internalID: -1342614630
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: slime_5
-      rect:
-        serializedVersion: 2
-        x: 42
-        y: 104
-        width: 12
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 438f64724709e674dbd00f6f2ef20777
-      internalID: 1745231659
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: slime_6
-      rect:
-        serializedVersion: 2
-        x: 74
-        y: 104
-        width: 12
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ab9b89508cf21664c9335640ebe8e6f7
-      internalID: 375660712
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: slime_7
-      rect:
-        serializedVersion: 2
-        x: 104
-        y: 104
-        width: 16
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 02294db0852d5af459b966bea4bf82c9
-      internalID: 2014482787
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: slime_8
-      rect:
-        serializedVersion: 2
-        x: 136
-        y: 104
-        width: 16
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c6f3ae404ce686840bc4b5065e70c518
-      internalID: -823781587
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: slime_9
-      rect:
-        serializedVersion: 2
-        x: 168
-        y: 104
-        width: 16
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d02c361ad197a424888bf6ee54b25086
-      internalID: 1342931065
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: slime_10
-      rect:
-        serializedVersion: 2
-        x: 40
-        y: 72
-        width: 17
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2890649f4cbb18746a34d8a6ff64f5de
-      internalID: -1419135201
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: slime_11
-      rect:
-        serializedVersion: 2
-        x: 74
-        y: 79
-        width: 12
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e06d187bbb36dd5488ab5dd3a2109da5
-      internalID: -1064092025
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: slime_12
-      rect:
-        serializedVersion: 2
-        x: 106
-        y: 82
-        width: 12
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c520de305cbdb2841a64d532ab7789be
-      internalID: -1128230562
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: slime_13
-      rect:
-        serializedVersion: 2
-        x: 137
-        y: 78
-        width: 13
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3e13da4fa8cefe74e8717b71878451b3
-      internalID: -592235517
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: slime_14
-      rect:
-        serializedVersion: 2
-        x: 7
-        y: 72
-        width: 18
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ecc4327c18fcbdc4aa14cd4eaff529f8
-      internalID: 282938455
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: slime_15
-      rect:
-        serializedVersion: 2
-        x: 74
-        y: 72
-        width: 12
-        height: 5
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 10bea46ebeb5b0d46a084519fedf9eec
-      internalID: -1870182905
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: slime_16
-      rect:
-        serializedVersion: 2
-        x: 106
-        y: 72
-        width: 12
-        height: 5
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 09a3e485b6e317f449bdcdc35016edb6
-      internalID: 2113907818
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: slime_17
-      rect:
-        serializedVersion: 2
-        x: 138
-        y: 72
-        width: 12
-        height: 5
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a6b4d82deb47e7a48b245a7a81927d4d
-      internalID: -1366096228
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: slime_18
-      rect:
-        serializedVersion: 2
-        x: 168
-        y: 72
-        width: 16
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c59da1c793bcb264aa2fdd6b9deca1af
-      internalID: 1580344358
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: slime_19
-      rect:
-        serializedVersion: 2
-        x: 199
-        y: 72
-        width: 18
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8942c7c0cf0cdbf48881a9a5e7b4bf67
-      internalID: 1705095602
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: slime_20
-      rect:
-        serializedVersion: 2
-        x: 9
-        y: 40
-        width: 14
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 67f3b67ea5567864c9946eb4dc37d4ea
-      internalID: -474079515
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: slime_21
-      rect:
-        serializedVersion: 2
-        x: 42
-        y: 40
-        width: 13
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2e1a6dc42f8b42f4fbe543a648abe51f
-      internalID: 304769903
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: slime_22
-      rect:
-        serializedVersion: 2
-        x: 72
-        y: 40
-        width: 16
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ca197dbf6d3a5084fa9b57cefaf4cce8
-      internalID: 2131797318
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: slime_23
-      rect:
-        serializedVersion: 2
-        x: 41
-        y: 8
+        x: 20
+        y: 381
         width: 13
         height: 19
       alignment: 0
@@ -620,20 +137,41 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3034bf725b566ea4a8e7d96e5f34edf9
-      internalID: 394802197
+      spriteID: 22d41c81a88bc97409e2ba34302d5ffb
+      internalID: -2083238301
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: slime_24
+      name: Civilian2(black)_Attack_1
       rect:
         serializedVersion: 2
         x: 72
-        y: 22
+        y: 381
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c32dec9a71157cf40bb46ba45ff44048
+      internalID: 327370710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Civilian2(black)_Attack_2
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 378
         width: 8
-        height: 7
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -641,20 +179,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7380f7bc9f157824c8acb212140eb198
-      internalID: -1206582897
+      spriteID: bab873f206d8bb64794369169dcb674c
+      internalID: 1771204317
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: slime_25
+      name: Civilian2(black)_Attack_3
       rect:
         serializedVersion: 2
-        x: 81
-        y: 20
-        width: 5
-        height: 5
+        x: 179
+        y: 378
+        width: 8
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -662,20 +200,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1b685f568dc65f14baec2118714cbc9a
-      internalID: 1561135061
+      spriteID: c7b27a9fad2645d42bf12e7f869dd9b1
+      internalID: -356834476
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: slime_26
+      name: Civilian2(black)_Attack_4
       rect:
         serializedVersion: 2
-        x: 104
-        y: 20
-        width: 6
-        height: 6
+        x: 20
+        y: 329
+        width: 12
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -683,20 +221,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4cf015e02f8886940832f0854d722aa8
-      internalID: 1889652898
+      spriteID: b385151de0bd0e745a95694db90e62a2
+      internalID: -1332281053
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: slime_27
+      name: Civilian2(black)_Attack_5
       rect:
         serializedVersion: 2
-        x: 117
-        y: 9
-        width: 4
-        height: 14
+        x: 72
+        y: 329
+        width: 12
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -704,20 +242,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 38baf2f1c325eff499b19e6cb5ea5df2
-      internalID: -214523691
+      spriteID: 3c29448ee7cec3e4f922c3570d17a7a2
+      internalID: 2074862146
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: slime_28
+      name: Civilian2(black)_Attack_6
       rect:
         serializedVersion: 2
-        x: 9
-        y: 8
+        x: 127
+        y: 329
         width: 14
-        height: 14
+        height: 17
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -725,20 +263,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: da7f4f2dd8d75774ca1cd103cecce01b
-      internalID: -687778668
+      spriteID: 49f538e0d6dabdc47a5c276546a48825
+      internalID: 2064900142
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: slime_29
+      name: Civilian2(black)_Attack_7
       rect:
         serializedVersion: 2
-        x: 74
-        y: 9
-        width: 11
-        height: 9
+        x: 179
+        y: 329
+        width: 14
+        height: 17
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -746,41 +284,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fcaf6bd3e3a7b534999970416cf035e0
-      internalID: -1179923002
+      spriteID: cd3e60e382b0683489934f002176a30b
+      internalID: 786453934
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: slime_30
+      name: Civilian2(black)_Attack_8
       rect:
         serializedVersion: 2
-        x: 104
-        y: 8
-        width: 5
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0beab81bc1bdadc45838d4e7293c38df
-      internalID: 1074741047
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: slime_31
-      rect:
-        serializedVersion: 2
-        x: 135
-        y: 8
+        x: 21
+        y: 277
         width: 9
-        height: 6
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -788,20 +305,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a41b17a000585084c8ba6a5bc55a15b9
-      internalID: 1624720130
+      spriteID: 2d68482eccce06f408a65270477cd35a
+      internalID: 127536034
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: slime_32
+      name: Civilian2(black)_Attack_9
       rect:
         serializedVersion: 2
-        x: 149
-        y: 9
-        width: 4
-        height: 4
+        x: 73
+        y: 277
+        width: 9
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -809,8 +326,470 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 652d0c784ee24f14e8a9edc3affb5662
-      internalID: 514158134
+      spriteID: 5a6f321d1beca7f4ab29246ac5a8bf8d
+      internalID: 1059299070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Civilian2(black)_Attack_10
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 277
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bce9686c4174be94490c506f01d57ef5
+      internalID: -223053281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Civilian2(black)_Attack_11
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 277
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 846fd37e298793f48a335ff6143d3532
+      internalID: 2137932755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Civilian2(black)_Attack_12
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 225
+        width: 9
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccc0d70caeeaac9409c5873618051f75
+      internalID: 255971671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Civilian2(black)_Attack_13
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 225
+        width: 9
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 330299077c819784d91b141a81e56bb0
+      internalID: -124338639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Civilian2(black)_Attack_14
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 225
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63598fa0389876247b616bc260c44bcf
+      internalID: 308758608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Civilian2(black)_Attack_15
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 225
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bf99ac7407d38d4ea49676a969fae70
+      internalID: -280219872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Civilian2(black)_Attack_16
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 173
+        width: 12
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 338911ee31fbd4f47aed69d83d34157e
+      internalID: 1915953188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Civilian2(black)_Attack_17
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 173
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dbb1a70413ff654c82e3403b3866830
+      internalID: 1303700882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Civilian2(black)_Attack_18
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 173
+        width: 10
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a86fb14273b73254cbd490a9ee626a7e
+      internalID: -2104568761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Civilian2(black)_Attack_19
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 173
+        width: 10
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc0d694a7611e0446b29e704c4fa47c1
+      internalID: -1833230474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Civilian2(black)_Attack_20
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 121
+        width: 9
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb9f1481efb15e24499469acf86129ec
+      internalID: -544249014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Civilian2(black)_Attack_21
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 121
+        width: 9
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98d4d1411b15c944b90b7533f5c66cf7
+      internalID: 933160828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Civilian2(black)_Attack_22
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 121
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82fa83cec309696498a59c9adb9e3cc7
+      internalID: -996140684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Civilian2(black)_Attack_23
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 121
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8220d92ac9f96f149832d1b205b9cb64
+      internalID: 480395385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Civilian2(black)_Attack_24
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 69
+        width: 9
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e9ea98e1417c1e46bcce5e68e5881c2
+      internalID: 127260778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Civilian2(black)_Attack_25
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 69
+        width: 9
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12b5179b8f5d9f242a06aa56738acc40
+      internalID: 366301664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Civilian2(black)_Attack_26
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 69
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d2d7670e5a92f941ae30c40162f4bc9
+      internalID: -771723040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Civilian2(black)_Attack_27
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 69
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f4ca733d591aca44a7aa69008b3079e
+      internalID: -1331859956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Civilian2(black)_Attack_28
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 17
+        width: 12
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b41ac678cde5794cb77b8343a0759c5
+      internalID: 339133578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Civilian2(black)_Attack_29
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 17
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4fdee8939e625c46bf494e7d2da5f38
+      internalID: 242450566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Civilian2(black)_Attack_30
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 17
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83fa571b4a444cc4caff00fb7efc3850
+      internalID: 104646279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Civilian2(black)_Attack_31
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 17
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82746d9f65b7c304d9f06796e03f7d1f
+      internalID: -1162415599
       vertices: []
       indices: 
       edges: []
@@ -826,39 +805,38 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      slime_0: 788231355
-      slime_1: 1215381375
-      slime_10: -1419135201
-      slime_11: -1064092025
-      slime_12: -1128230562
-      slime_13: -592235517
-      slime_14: 282938455
-      slime_15: -1870182905
-      slime_16: 2113907818
-      slime_17: -1366096228
-      slime_18: 1580344358
-      slime_19: 1705095602
-      slime_2: -824837714
-      slime_20: -474079515
-      slime_21: 304769903
-      slime_22: 2131797318
-      slime_23: 394802197
-      slime_24: -1206582897
-      slime_25: 1561135061
-      slime_26: 1889652898
-      slime_27: -214523691
-      slime_28: -687778668
-      slime_29: -1179923002
-      slime_3: 1153489282
-      slime_30: 1074741047
-      slime_31: 1624720130
-      slime_32: 514158134
-      slime_4: -1342614630
-      slime_5: 1745231659
-      slime_6: 375660712
-      slime_7: 2014482787
-      slime_8: -823781587
-      slime_9: 1342931065
+      Civilian2(black)_Attack_0: -2083238301
+      Civilian2(black)_Attack_1: 327370710
+      Civilian2(black)_Attack_10: -223053281
+      Civilian2(black)_Attack_11: 2137932755
+      Civilian2(black)_Attack_12: 255971671
+      Civilian2(black)_Attack_13: -124338639
+      Civilian2(black)_Attack_14: 308758608
+      Civilian2(black)_Attack_15: -280219872
+      Civilian2(black)_Attack_16: 1915953188
+      Civilian2(black)_Attack_17: 1303700882
+      Civilian2(black)_Attack_18: -2104568761
+      Civilian2(black)_Attack_19: -1833230474
+      Civilian2(black)_Attack_2: 1771204317
+      Civilian2(black)_Attack_20: -544249014
+      Civilian2(black)_Attack_21: 933160828
+      Civilian2(black)_Attack_22: -996140684
+      Civilian2(black)_Attack_23: 480395385
+      Civilian2(black)_Attack_24: 127260778
+      Civilian2(black)_Attack_25: 366301664
+      Civilian2(black)_Attack_26: -771723040
+      Civilian2(black)_Attack_27: -1331859956
+      Civilian2(black)_Attack_28: 339133578
+      Civilian2(black)_Attack_29: 242450566
+      Civilian2(black)_Attack_3: -356834476
+      Civilian2(black)_Attack_30: 104646279
+      Civilian2(black)_Attack_31: -1162415599
+      Civilian2(black)_Attack_4: -1332281053
+      Civilian2(black)_Attack_5: 2074862146
+      Civilian2(black)_Attack_6: 2064900142
+      Civilian2(black)_Attack_7: 786453934
+      Civilian2(black)_Attack_8: 127536034
+      Civilian2(black)_Attack_9: 1059299070
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

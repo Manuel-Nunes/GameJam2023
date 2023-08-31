@@ -8,6 +8,7 @@ TagManager:
   - WallTag
   - Lever
   - LeverDoor
+  - Interactable
   layers:
   - Default
   - TransparentFX

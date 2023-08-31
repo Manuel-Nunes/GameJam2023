@@ -8,14 +8,16 @@ using UnityEngine.PlayerLoop;
 public class PlayerMovement : MonoBehaviour
 {
     public PlayerTeleporationTarget PlayerTeleportTarget;
-    public static float SpeedMultiplier = 10;
+
+    public Animator Animator;
+    public float SpeedMultiplier = 10;
     
     public bool IsInPast = true;
     private Rigidbody2D PlayerBody ;
 
     public float TeleportSafeZone = 1.0f;
 
-    public static Vector3 TeleportOffset = new Vector3(47,0,0);
+    public Vector3 TeleportOffset = new Vector3(47,0,0);
 
     void Start()
     {
@@ -23,7 +25,18 @@ public class PlayerMovement : MonoBehaviour
     }
 
     public void OnMoveButton( InputAction.CallbackContext cbc){
-        PlayerBody.velocity = SpeedMultiplier * cbc.ReadValue<Vector2>();
+        Vector2 input = cbc.ReadValue<Vector2>();
+        PlayerBody.velocity = SpeedMultiplier * input;
+
+        if (input.x != 0 || input.y != 0){
+            Animator.SetFloat("X",input.x );
+            Animator.SetFloat("Y",input.y );
+
+            Animator.SetBool("IsWalking",true);
+        }
+        else{
+            Animator.SetBool("IsWalking",false);
+        }
     }
 
     public void OnAbilityButton( InputAction.CallbackContext cbc){
@@ -37,7 +50,7 @@ public class PlayerMovement : MonoBehaviour
         IsInPast = !IsInPast;
     }
 
-    private static Vector3 GetTeleportLocation( GameObject Player, bool IsInPast){
+    private Vector3 GetTeleportLocation( GameObject Player, bool IsInPast){
         return 
             Player.transform.position 
             + ( IsInPast? TeleportOffset : -TeleportOffset);
