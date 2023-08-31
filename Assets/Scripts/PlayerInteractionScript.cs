@@ -7,6 +7,6 @@ public class PlayerInteractionScript : MonoBehaviour
 {
     
     public void OnPlayerInteract( InputAction.CallbackContext cbc){
-        
+        // Todo
     }
 }

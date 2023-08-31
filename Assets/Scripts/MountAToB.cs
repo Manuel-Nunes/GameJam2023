@@ -11,13 +11,6 @@ public class MountAToB : MonoBehaviour
 
     public Vector3 MountOffset = new Vector3(0,0,0);
 
-    public void Start(){
-        // if (MountOffset == null)
-        // {
-        //     MountOffset = new Vector3(0,0,0);
-        // }
-    }
-
     public void FixedUpdate(){
         this.Passenger.transform.position = new Vector3(
             ( MountX ? this.Target.transform.position.x : this.Passenger.transform.position.x ) + MountOffset.x,
