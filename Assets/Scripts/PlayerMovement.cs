@@ -40,6 +40,12 @@ public class PlayerMovement : MonoBehaviour
     }
 
     public void OnAbilityButton( InputAction.CallbackContext cbc){
+
+        if (cbc.performed) {
+            Debug.Log("Ability has already been performed" );
+            return;
+        }
+
         Debug.Log("Ability Use");
         
         if (Physics2D.IsTouchingLayers(PlayerTeleportTarget.Collider,LayerMask.GetMask("GameWalls"))) {

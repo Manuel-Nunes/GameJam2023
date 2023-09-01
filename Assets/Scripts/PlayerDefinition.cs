@@ -9,4 +9,8 @@ public class PlayerDefinition : MonoBehaviour
     public InputAction PlayerActionInput;
     public BoxCollider2D PlayerCollider;
     public Animator PlayerAnimator;
+    public CircleCollider2D PlayerInteractionCollider;
+
+    public MountAToB MountToPlayer;
+    public ACarryingB PlayerCarrying;
 }
