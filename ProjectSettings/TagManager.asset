@@ -3,20 +3,7 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags:
-  - PlayerGhost
-  - WallTag
-<<<<<<< Updated upstream
-  - Lever
-  - LeverDoor
-  - Interactable
-=======
-  - ShipControlsTag
-  - PowerControlsTag
-  - FireExtinguisherTag
-  - OxygenMaskTag
-  - PowKeyCardTag
->>>>>>> Stashed changes
+  tags: []
   layers:
   - Default
   - TransparentFX
@@ -24,7 +11,7 @@ TagManager:
   - 
   - Water
   - UI
-  - GameWalls
+  - 
   - 
   - 
   - 
