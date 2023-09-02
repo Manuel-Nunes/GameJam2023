@@ -6,29 +6,29 @@ using UnityEngine.UI;
 public class GameEndController : MonoBehaviour
 {
     private bool isPlayerDead = false;
-    public GameObject gameEndedPanel;
-    public Text gameEndedText;
+    public GameObject GameEndedPanel;
+    public Text GameEndedText;
 
     void Start()
     {
-        if (this.name.Equals("Dead Zone"))
-        {
-            gameEndedText.text = "You fell through a hole in the floor";
-        }
-        else if (this.name.Equals("Fire"))
-        {
-            gameEndedText.text = "The fire burned you...";
-        }
-
-        gameEndedPanel?.SetActive(false);
+        GameEndedPanel?.SetActive(false);
     }
 
     void OnCollisionEnter2D(Collision2D collision)
     {
         if (!isPlayerDead && collision.gameObject.tag == "Player")
         {
+            if (this.name.Equals("Dead Zone"))
+            {
+                GameEndedText.text = "You fell through a hole in the floor";
+            }
+            else if (this.name.Equals("Fire"))
+            {
+                GameEndedText.text = "The fire burned you...";
+            }
+
             isPlayerDead = true;
-            gameEndedPanel.SetActive(true);
+            GameEndedPanel.SetActive(true);
         }
     }
 }
