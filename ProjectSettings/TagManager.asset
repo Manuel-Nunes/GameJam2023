@@ -6,9 +6,17 @@ TagManager:
   tags:
   - PlayerGhost
   - WallTag
+<<<<<<< Updated upstream
   - Lever
   - LeverDoor
   - Interactable
+=======
+  - ShipControlsTag
+  - PowerControlsTag
+  - FireExtinguisherTag
+  - OxygenMaskTag
+  - PowKeyCardTag
+>>>>>>> Stashed changes
   layers:
   - Default
   - TransparentFX
