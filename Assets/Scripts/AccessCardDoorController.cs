@@ -32,6 +32,9 @@ public class AccessCardDoorController : MonoBehaviour
 
     private void OpenDoor()
     {
+        this.gameObject.GetComponent<SpriteRenderer>().enabled = false;
+        this.gameObject.GetComponent<BoxCollider2D>().enabled = false;
+
         // play door open music
         source.clip = DoorOpen;
         source.Play();
