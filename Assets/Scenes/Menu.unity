@@ -1829,6 +1829,50 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 557638313}
     m_Modifications:
+    - target: {fileID: 3922869367116352721, guid: 989e179a96ad8b64b98c36c3c9fc2382, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3922869367116352721, guid: 989e179a96ad8b64b98c36c3c9fc2382, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -121
+      objectReference: {fileID: 0}
+    - target: {fileID: 3922869367116352721, guid: 989e179a96ad8b64b98c36c3c9fc2382, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 36.54568
+      objectReference: {fileID: 0}
+    - target: {fileID: 5824137382645773554, guid: 989e179a96ad8b64b98c36c3c9fc2382, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5824137382645773554, guid: 989e179a96ad8b64b98c36c3c9fc2382, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -96
+      objectReference: {fileID: 0}
+    - target: {fileID: 5866924370988785409, guid: 989e179a96ad8b64b98c36c3c9fc2382, type: 3}
+      propertyPath: m_text
+      value: During a long cryo sleep to a new Homeplanet your ship has gone through
+        a asteroid belt and has taken damage and has knocked out power to the engines.
+        Your goal is to use your state of the art Time-control watch [E] to navigate
+        to the control room and safely navigate through the asteroid field. Be careful,
+        there is no telling what damage your ship has taken.
+      objectReference: {fileID: 0}
+    - target: {fileID: 5866924370988785409, guid: 989e179a96ad8b64b98c36c3c9fc2382, type: 3}
+      propertyPath: m_fontSize
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 5866924370988785409, guid: 989e179a96ad8b64b98c36c3c9fc2382, type: 3}
+      propertyPath: m_margin.w
+      value: -120.779625
+      objectReference: {fileID: 0}
+    - target: {fileID: 5866924370988785409, guid: 989e179a96ad8b64b98c36c3c9fc2382, type: 3}
+      propertyPath: m_margin.z
+      value: -246.74234
+      objectReference: {fileID: 0}
+    - target: {fileID: 5866924370988785409, guid: 989e179a96ad8b64b98c36c3c9fc2382, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 20
+      objectReference: {fileID: 0}
     - target: {fileID: 6131005083525651214, guid: 989e179a96ad8b64b98c36c3c9fc2382, type: 3}
       propertyPath: m_Name
       value: MainMenu
@@ -1922,9 +1966,45 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6240257617545021692, guid: 989e179a96ad8b64b98c36c3c9fc2382, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6240257617545021692, guid: 989e179a96ad8b64b98c36c3c9fc2382, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6240257617545021692, guid: 989e179a96ad8b64b98c36c3c9fc2382, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 338224291}
+    - target: {fileID: 6240257617545021692, guid: 989e179a96ad8b64b98c36c3c9fc2382, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 679887389}
+    - target: {fileID: 6240257617545021692, guid: 989e179a96ad8b64b98c36c3c9fc2382, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6240257617545021692, guid: 989e179a96ad8b64b98c36c3c9fc2382, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: NewGame
+      objectReference: {fileID: 0}
+    - target: {fileID: 6240257617545021692, guid: 989e179a96ad8b64b98c36c3c9fc2382, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: MenuManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6240257617545021692, guid: 989e179a96ad8b64b98c36c3c9fc2382, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 6240257617554995132, guid: 989e179a96ad8b64b98c36c3c9fc2382, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -479
+      objectReference: {fileID: 0}
+    - target: {fileID: 6240257617571791566, guid: 989e179a96ad8b64b98c36c3c9fc2382, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -478.99994
+      objectReference: {fileID: 0}
     - target: {fileID: 6240257617585670254, guid: 989e179a96ad8b64b98c36c3c9fc2382, type: 3}
       propertyPath: m_IsActive
       value: 1
@@ -1941,5 +2021,25 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 338224291}
+    - target: {fileID: 6240257617751698810, guid: 989e179a96ad8b64b98c36c3c9fc2382, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -477
+      objectReference: {fileID: 0}
+    - target: {fileID: 6240257618327788326, guid: 989e179a96ad8b64b98c36c3c9fc2382, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6240257618327788326, guid: 989e179a96ad8b64b98c36c3c9fc2382, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -484
+      objectReference: {fileID: 0}
+    - target: {fileID: 6372010685605779860, guid: 989e179a96ad8b64b98c36c3c9fc2382, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6372010685605779860, guid: 989e179a96ad8b64b98c36c3c9fc2382, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -132
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 989e179a96ad8b64b98c36c3c9fc2382, type: 3}
