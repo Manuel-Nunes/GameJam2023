@@ -612,7 +612,7 @@ GameObject:
   - component: {fileID: 2007549347}
   - component: {fileID: 2007549346}
   m_Layer: 0
-  m_Name: Dead Zone (1)
+  m_Name: Fire
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
