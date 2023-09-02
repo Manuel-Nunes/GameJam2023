@@ -9,6 +9,8 @@ TagManager:
   - Lever
   - LeverDoor
   - Interactable
+  - Engine
+  - Switch
   layers:
   - Default
   - TransparentFX
