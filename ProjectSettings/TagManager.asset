@@ -15,6 +15,7 @@ TagManager:
   - Storage Place Access Card
   - Storage Place Oxygen Mask
   - Oxygen Mask
+  - Storage Place No Items
   layers:
   - Default
   - TransparentFX
