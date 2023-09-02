@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &2099184712895106413
+--- !u!1 &2398578057075509287
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,7 +8,10 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 8250924690234698275}
+  - component: {fileID: 6621309746190563623}
+  - component: {fileID: 7140166017996538396}
+  - component: {fileID: 300130180654304108}
+  - component: {fileID: 8087655083769056331}
   m_Layer: 0
   m_Name: Oxygen Mask
   m_TagString: Oxygen Mask
@@ -16,63 +19,28 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &8250924690234698275
+--- !u!4 &6621309746190563623
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2099184712895106413}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.7033298, y: 0.69259197, z: -0.061940942}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 7454633154146148700}
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &3986413091271032878
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 7454633154146148700}
-  - component: {fileID: 6406068668409178753}
-  - component: {fileID: 2130495395552455017}
-  - component: {fileID: 198499548357500284}
-  m_Layer: 0
-  m_Name: oxygen_mask_0
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &7454633154146148700
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3986413091271032878}
+  m_GameObject: {fileID: 2398578057075509287}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.13, y: 0.36, z: 0.061940942}
+  m_LocalPosition: {x: 3.3366103, y: -0.7262436, z: -5.061941}
   m_LocalScale: {x: 0.4092, y: 0.4092, z: 0.4092}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 8250924690234698275}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &6406068668409178753
+--- !u!212 &7140166017996538396
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3986413091271032878}
+  m_GameObject: {fileID: 2398578057075509287}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -118,13 +86,13 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &2130495395552455017
+--- !u!61 &300130180654304108
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3986413091271032878}
+  m_GameObject: {fileID: 2398578057075509287}
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
@@ -163,13 +131,13 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2, y: 4.74}
   m_EdgeRadius: 0
---- !u!114 &198499548357500284
+--- !u!114 &8087655083769056331
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3986413091271032878}
+  m_GameObject: {fileID: 2398578057075509287}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4d44ae1908c61d647b791a31472031ff, type: 3}

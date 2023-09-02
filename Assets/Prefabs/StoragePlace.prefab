@@ -91,6 +91,7 @@ GameObject:
   - component: {fileID: 8276040866170424905}
   - component: {fileID: 8891352719278314639}
   - component: {fileID: 3749397977067310934}
+  - component: {fileID: 1830399512716214478}
   m_Layer: 5
   m_Name: StoragePlace
   m_TagString: Storage Place
@@ -184,6 +185,18 @@ MonoBehaviour:
   m_ChildScaleWidth: 0
   m_ChildScaleHeight: 0
   m_ReverseArrangement: 0
+--- !u!114 &1830399512716214478
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1468458114808745406}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b808eed9e7a952d47ae01f9355b22b2f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4543830669991391722
 GameObject:
   m_ObjectHideFlags: 0
@@ -197,7 +210,7 @@ GameObject:
   - component: {fileID: 7370164511199144340}
   m_Layer: 5
   m_Name: Oxygen Mask
-  m_TagString: Untagged
+  m_TagString: Storage Place Oxygen Mask
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -272,7 +285,7 @@ GameObject:
   - component: {fileID: 873329086429663136}
   m_Layer: 5
   m_Name: Access Card
-  m_TagString: Untagged
+  m_TagString: Storage Place Access Card
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
