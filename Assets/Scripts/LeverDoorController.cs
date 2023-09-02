@@ -8,30 +8,25 @@ public class LeverDoorController : MonoBehaviour
 {
     private bool isDoorOpen = false;
     private GameObject lever;
-    //private GameObject leverDoor;
+    public Animator[] DoorAnimators;
 
     public AudioClip DoorOpen;
     public AudioClip DoorClose;
-
-    public Animator[] DoorAnimators;
 
     private AudioSource source;
 
     void Start()
     {
         lever = GameObject.FindGameObjectWithTag("Lever");
-        //leverDoor = GameObject.FindGameObjectWithTag("LeverDoor");
 
         // set lever to close 
         lever.transform.Rotate(0, 0, -45);
 
-        // lever door is set to closed
-
         // audio 
         source = gameObject.AddComponent<AudioSource>();
 
-        // Initialize Door animation to false
-        foreach(Animator DoorAnimator in DoorAnimators)
+        // lever door is set to closed
+        foreach (Animator DoorAnimator in DoorAnimators)
             DoorAnimator.SetBool("DoorIsOpen", false);
     }
 
@@ -54,7 +49,6 @@ public class LeverDoorController : MonoBehaviour
         source.clip = DoorOpen;
         source.Play();
         lever.transform.Rotate(0, 0, 90);
-        //leverDoor.transform.Rotate(0, 0, 90);
         isDoorOpen = true;
 
         foreach (Animator DoorAnimator in DoorAnimators)
@@ -66,7 +60,6 @@ public class LeverDoorController : MonoBehaviour
         source.clip = DoorClose;
         source.Play();
         lever.transform.Rotate(0, 0, -90);
-        //leverDoor.transform.Rotate(0, 0, -90);
         isDoorOpen = false;
 
         foreach (Animator DoorAnimator in DoorAnimators)
