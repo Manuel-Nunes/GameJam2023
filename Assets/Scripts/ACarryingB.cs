@@ -14,6 +14,11 @@ public class ACarryingB : ConnectObjects
     }
 
     public void DropB(){
+        if (this.Passenger == null){
+            return;
+        }
+        
+        EffectPlayerCarryingSpeed(Target, Passenger, false);
         this.Passenger.GetComponent<Collider2D>().enabled = true;
         this.Passenger = null;
     }
@@ -25,5 +30,23 @@ public class ACarryingB : ConnectObjects
     public void PickUp(GameObject other){
         other.GetComponent<Collider2D>().enabled = false;
         this.Passenger = other;
+
+        EffectPlayerCarryingSpeed(Target, other, true);
+    }
+
+    public void EffectPlayerCarryingSpeed(GameObject Player, GameObject Carrying, bool Negatively){
+        CarryableDefinitions carryable = Carrying.GetComponent<CarryableDefinitions>();
+
+        PlayerDefinition PlayerDef = Target.GetComponent<PlayerDefinition>();
+
+        if ( carryable != null && PlayerDef != null ){
+            PlayerDef.PlayerMovement.SpeedMultiplier = 
+                PlayerDef.PlayerMovement.SpeedMultiplier + 
+                (   
+                    Negatively
+                    ? -carryable.CarrySlowDownPenalty 
+                    : carryable.CarrySlowDownPenalty
+                );
+        }
     }
 }
