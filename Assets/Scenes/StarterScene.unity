@@ -706,6 +706,54 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 475286608490564461, guid: f54bd2f220a51ac4ba0b2639b74c21d4, type: 3}
+      propertyPath: m_Size.x
+      value: 0.5026564
+      objectReference: {fileID: 0}
+    - target: {fileID: 475286608490564461, guid: f54bd2f220a51ac4ba0b2639b74c21d4, type: 3}
+      propertyPath: m_Size.y
+      value: 0.20445465
+      objectReference: {fileID: 0}
+    - target: {fileID: 475286608490564461, guid: f54bd2f220a51ac4ba0b2639b74c21d4, type: 3}
+      propertyPath: m_Offset.x
+      value: 0.27808705
+      objectReference: {fileID: 0}
+    - target: {fileID: 475286608490564461, guid: f54bd2f220a51ac4ba0b2639b74c21d4, type: 3}
+      propertyPath: m_Offset.y
+      value: 0.0023279265
+      objectReference: {fileID: 0}
+    - target: {fileID: 1834837327617833169, guid: f54bd2f220a51ac4ba0b2639b74c21d4, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1834837327617833169, guid: f54bd2f220a51ac4ba0b2639b74c21d4, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1834837327617833169, guid: f54bd2f220a51ac4ba0b2639b74c21d4, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1834837327617833169, guid: f54bd2f220a51ac4ba0b2639b74c21d4, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1834837327617833169, guid: f54bd2f220a51ac4ba0b2639b74c21d4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 6614841187121812839, guid: f54bd2f220a51ac4ba0b2639b74c21d4, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.678
+      objectReference: {fileID: 0}
+    - target: {fileID: 6614841187121812839, guid: f54bd2f220a51ac4ba0b2639b74c21d4, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.073
+      objectReference: {fileID: 0}
+    - target: {fileID: 6614841187121812839, guid: f54bd2f220a51ac4ba0b2639b74c21d4, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.017
+      objectReference: {fileID: 0}
     - target: {fileID: 7049273310870506559, guid: f54bd2f220a51ac4ba0b2639b74c21d4, type: 3}
       propertyPath: m_Name
       value: Lever 2D platform
@@ -714,9 +762,17 @@ PrefabInstance:
       propertyPath: DoorAnimator
       value: 
       objectReference: {fileID: 1551565834}
+    - target: {fileID: 8274292238562230823, guid: f54bd2f220a51ac4ba0b2639b74c21d4, type: 3}
+      propertyPath: DoorAnimators.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8274292238562230823, guid: f54bd2f220a51ac4ba0b2639b74c21d4, type: 3}
+      propertyPath: DoorAnimators.Array.data[0]
+      value: 
+      objectReference: {fileID: 1551565834}
     - target: {fileID: 8493181744007644794, guid: f54bd2f220a51ac4ba0b2639b74c21d4, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 11.44
+      value: 8.86
       objectReference: {fileID: 0}
     - target: {fileID: 8493181744007644794, guid: f54bd2f220a51ac4ba0b2639b74c21d4, type: 3}
       propertyPath: m_LocalPosition.y
