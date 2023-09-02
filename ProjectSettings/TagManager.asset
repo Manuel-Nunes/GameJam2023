@@ -11,6 +11,10 @@ TagManager:
   - Interactable
   - Access Card
   - AccessCardDoor
+  - Storage Place
+  - Storage Place Access Card
+  - Storage Place Oxygen Mask
+  - Oxygen Mask
   layers:
   - Default
   - TransparentFX
