@@ -9,6 +9,8 @@ TagManager:
   - Lever
   - LeverDoor
   - Interactable
+  - Access Card
+  - AccessCardDoor
   layers:
   - Default
   - TransparentFX
