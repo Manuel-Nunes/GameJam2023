@@ -10,7 +10,7 @@ TagManager:
   - LeverDoor
   - Interactable
   - Game End Panel
-  - Dead Zone
+  - Game End Text
   layers:
   - Default
   - TransparentFX
