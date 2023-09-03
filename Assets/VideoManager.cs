@@ -7,11 +7,17 @@ public class VideoManager : MonoBehaviour
 {
 
     public VideoPlayer player;
-    public Canvas canvas;
+    public Canvas[] canvases;
     bool isPlayerStarted = false;
     void Start()
     {
-        canvas.gameObject.SetActive(false);
+        for (int i = 0; i <= canvases.Length - 1; i++)
+        {
+
+            canvases[i].gameObject.SetActive(false);
+        }
+
+
     }
     void Update()
     {
@@ -23,7 +29,12 @@ public class VideoManager : MonoBehaviour
         else if (isPlayerStarted && !player.isPlaying)
         {
             this.gameObject.SetActive(false);
-            canvas.gameObject.SetActive(true);
+            for (int i = 0; i <= canvases.Length - 1; i++)
+            {
+
+                canvases[i].gameObject.SetActive(true);
+            }
+
         }
     }
 }
