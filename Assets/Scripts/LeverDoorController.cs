@@ -1,14 +1,10 @@
-using System.Collections;
-using System.Collections.Generic;
-using System.Threading;
 using UnityEngine;
-using UnityEngine.UI;
 
 public class LeverDoorController : MonoBehaviour
 {
     private bool isDoorOpen = false;
     private GameObject lever;
-    public Animator[] DoorAnimators;
+    public GameObject[] LeverDoors;
 
     public AudioClip DoorOpen;
     public AudioClip DoorClose;
@@ -26,8 +22,10 @@ public class LeverDoorController : MonoBehaviour
         source = gameObject.AddComponent<AudioSource>();
 
         // lever door is set to closed
-        foreach (Animator DoorAnimator in DoorAnimators)
-            DoorAnimator.SetBool("DoorIsOpen", false);
+        foreach (GameObject leverDoor in LeverDoors)
+        {
+            leverDoor.transform.Rotate(0, 0, 0);
+        }
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -51,8 +49,11 @@ public class LeverDoorController : MonoBehaviour
         lever.transform.Rotate(0, 0, 90);
         isDoorOpen = true;
 
-        foreach (Animator DoorAnimator in DoorAnimators)
-            DoorAnimator.SetBool("DoorIsOpen", true);
+        foreach (GameObject leverDoor in LeverDoors)
+        {
+            leverDoor.transform.Rotate(0, 0, 90);
+            leverDoor.GetComponent<BoxCollider2D>().enabled = false;
+        }
     }
 
     private void CloseDoor()
@@ -62,7 +63,10 @@ public class LeverDoorController : MonoBehaviour
         lever.transform.Rotate(0, 0, -90);
         isDoorOpen = false;
 
-        foreach (Animator DoorAnimator in DoorAnimators)
-            DoorAnimator.SetBool("DoorIsOpen", false);
+        foreach (GameObject leverDoor in LeverDoors)
+        {
+            leverDoor.transform.Rotate(0, 0, -90);
+            leverDoor.GetComponent<BoxCollider2D>().enabled = true;
+        }
     }
 }
