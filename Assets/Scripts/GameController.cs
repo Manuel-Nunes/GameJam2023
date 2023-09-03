@@ -42,6 +42,7 @@ public class GameController : MonoBehaviour
                 {
                     hasPower = !hasPower;
                     Debug.Log("Power on");
+                    ShowModal("Emergency Power is on", 2);
                 }
                 else
                 {
