@@ -22,6 +22,11 @@ TagManager:
   - Switch
   - Objective
   - Credits
+  - PowKeyCardTag
+  - FireExtinguisherTag
+  - OxygenMaskTag
+  - PowerControlsTag
+  - PowerSwitch
   layers:
   - Default
   - TransparentFX

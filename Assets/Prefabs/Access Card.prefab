@@ -143,6 +143,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cb1f57a1fc944444a109b9cd28188cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  AccessCardDoorAnimators:
-  - {fileID: 0}
-  DoorOpen: {fileID: 8300000, guid: 8c3c43948df31ac4184f7ad80169a5d2, type: 3}
+  LeverDoors: []
+  DoorOpen: {fileID: 8300000, guid: e1b43588d8ba7f5489d95c7718711932, type: 3}
