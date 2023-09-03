@@ -235,10 +235,10 @@ AudioSource:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 338224287}
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 24300002, guid: eb3127fdde874f8439cbb09273f74f15, type: 2}
-  m_audioClip: {fileID: 8300000, guid: 0d73fd437a885dd4fb2184acf8c2efc0, type: 3}
+  m_audioClip: {fileID: 8300000, guid: cdcae292efa96c94eb57aa19c16a2af2, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -1966,6 +1966,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6131005083962463192, guid: 989e179a96ad8b64b98c36c3c9fc2382, type: 3}
+      propertyPath: m_Volume
+      value: 0.182
+      objectReference: {fileID: 0}
+    - target: {fileID: 6131005083962463192, guid: 989e179a96ad8b64b98c36c3c9fc2382, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 3ad72a664a57f7e4aad5a124949d47f1, type: 3}
     - target: {fileID: 6240257617545021692, guid: 989e179a96ad8b64b98c36c3c9fc2382, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
       value: 2
