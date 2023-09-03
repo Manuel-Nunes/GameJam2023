@@ -6,6 +6,7 @@ using UnityEngine.InputSystem;
 public class PlayerDefinition : MonoBehaviour
 {
     public bool IsAlive = true;
+    public bool IsControlable = true;
     public SpriteRenderer PlayerRender;
     public InputAction PlayerActionInput;
     public BoxCollider2D PlayerCollider;
@@ -18,4 +19,22 @@ public class PlayerDefinition : MonoBehaviour
 
     public MountAToB MountToPlayer;
     public ACarryingB PlayerCarrying;
+
+    public Rigidbody2D PlayerBody2D;
+
+    public void EnableMovement(){
+        this.PlayerActionInput.Enable();
+        this.IsControlable = true;
+    }
+    
+    public void DisableMovement(){
+        this.PlayerActionInput.Disable();
+        this.IsControlable = false;
+    }
+
+    public void KillPlayer(){
+        this.IsAlive = false;
+        this.PlayerAnimator.enabled = false;
+        DisableMovement();
+    }
 }

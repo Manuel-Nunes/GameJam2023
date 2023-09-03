@@ -9,8 +9,6 @@ public class PlayerLifeManager : MonoBehaviour
     public Sprite PlayerDeath;
 
     public void KillPlayer(){
-        PlayerDef.PlayerRender.sprite = PlayerDeath;
-        PlayerDef.IsAlive = false;
-        PlayerDef.PlayerAnimator.enabled = false;   
+        PlayerDef.KillPlayer();
     }
 }

@@ -37,7 +37,7 @@ Transform:
   m_GameObject: {fileID: 4678032463253488410}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.81, y: -0.092, z: -10}
+  m_LocalPosition: {x: 0, y: 0, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -361,6 +361,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad2025c924d1b8d4eaee485a8f5371a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  IsAlive: 1
+  IsControlable: 1
   PlayerRender: {fileID: 7002101554287020527}
   PlayerActionInput:
     m_Name: Player Action Input
@@ -378,6 +380,7 @@ MonoBehaviour:
   PlayerAbility: {fileID: 3022420424242038551}
   MountToPlayer: {fileID: 6014477678468592060}
   PlayerCarrying: {fileID: 7731438013683513573}
+  PlayerBody2D: {fileID: 5572975067542215361}
 --- !u!114 &606485881638938913
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -390,8 +393,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 42018e27c5c7dbb4eb7782362c18bea9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Animator: {fileID: 9167847105234090221}
   SpeedMultiplier: 7
+  PlayerDef: {fileID: 3094196175530029300}
 --- !u!114 &313691738610542298
 MonoBehaviour:
   m_ObjectHideFlags: 0
