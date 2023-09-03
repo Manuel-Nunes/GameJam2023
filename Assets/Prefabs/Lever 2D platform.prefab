@@ -204,9 +204,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d79a2331273f5b5458a942bc7389bdc1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  DoorAnimators: []
-  DoorOpen: {fileID: 8300000, guid: 8c3c43948df31ac4184f7ad80169a5d2, type: 3}
-  DoorClose: {fileID: 8300000, guid: a0b827b6a09e7384692d3670a595cac8, type: 3}
+  LeverDoors: []
+  DoorOpen: {fileID: 8300000, guid: e1b43588d8ba7f5489d95c7718711932, type: 3}
+  DoorClose: {fileID: 8300000, guid: 44793acecb4a04a43b98dcd0df1e9924, type: 3}
 --- !u!1 &6996604877456438009
 GameObject:
   m_ObjectHideFlags: 0
