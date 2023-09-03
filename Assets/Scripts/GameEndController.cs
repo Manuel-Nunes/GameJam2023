@@ -9,6 +9,8 @@ public class GameEndController : MonoBehaviour
     public GameObject GameEndedPanel;
     public Text GameEndedText;
 
+    public PlayerLifeManager PlayerLifeManager;
+
     void Start()
     {
         GameEndedPanel?.SetActive(false);
@@ -31,10 +33,17 @@ public class GameEndController : MonoBehaviour
             else if (this.name.Equals("Won"))
             {
                 GameEndedPanel.GetComponent<Image>().color = new Color32(25, 164, 64, 100);  // green
-                GameEndedText.text = "Game Won!";
+                GameEndedText.text = "You safely navigated the asteroid field!";
+            }
+            else if (this.name.Equals("NoO2Zone"))
+            {
+                GameEndedPanel.GetComponent<Image>().color = new Color32(255, 0, 0, 100);  // red
+            
+                GameEndedText.text = "You suffocated...";
             }
 
             isPlayerDead = true;
+            PlayerLifeManager.KillPlayer();
             GameEndedPanel.SetActive(true);
         }
     }

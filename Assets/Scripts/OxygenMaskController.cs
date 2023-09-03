@@ -6,6 +6,7 @@ public class OxygenMaskController : MonoBehaviour
 {
     private bool isOxygenMaskPickedUp = false;
     private GameObject oxygenMask;
+    public GameObject NoO2DeadZone;
 
     void Start()
     {
@@ -21,6 +22,8 @@ public class OxygenMaskController : MonoBehaviour
             oxygenMask.SetActive(false);
 
             isOxygenMaskPickedUp = true;
+
+            NoO2DeadZone.SetActive(false);
         }
     }
 }

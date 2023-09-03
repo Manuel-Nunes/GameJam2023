@@ -28,6 +28,7 @@ public class FireRoomFutureLogic : MonoBehaviour
             
         if (col.gameObject.tag ==  "Player"){
             PlayerLifeManager.KillPlayer();
+            Debug.Log("Dying successfully");
             GameEndController.DisplayMessage(false,"The fire burned you...");
         }
     }
