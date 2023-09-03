@@ -14,7 +14,7 @@ public class GameEndController : MonoBehaviour
         GameEndedPanel?.SetActive(false);
     }
 
-    void OnCollisionEnter2D(Collision2D collision)
+    public void OnCollisionEnter2D(Collision2D collision)
     {
         if (!isPlayerDead && collision.gameObject.tag == "Player")
         {
@@ -23,7 +23,7 @@ public class GameEndController : MonoBehaviour
                 GameEndedPanel.GetComponent<Image>().color = new Color32(255, 0, 0, 100);  // red
                 GameEndedText.text = "You fell through a hole in the floor";
             }
-            else if (this.name.Equals("Fire"))
+            else if (this.name.Equals("Fire") || this.name.Equals("FutureFireRoom"))
             {
                 GameEndedPanel.GetComponent<Image>().color = new Color32(255, 0, 0, 100);  // red
                 GameEndedText.text = "The fire burned you...";
@@ -37,5 +37,19 @@ public class GameEndController : MonoBehaviour
             isPlayerDead = true;
             GameEndedPanel.SetActive(true);
         }
+    }
+
+    public void DisplayMessage(bool Good, string Message){
+
+        if (Good){
+            GameEndedPanel.GetComponent<Image>().color = new Color32(25, 164, 64, 100);  // green
+        } else {
+            GameEndedPanel.GetComponent<Image>().color = new Color32(255, 0, 0, 100);  // red
+        }
+
+        GameEndedText.text = Message;
+
+        isPlayerDead = true;
+        GameEndedPanel.SetActive(true);
     }
 }
