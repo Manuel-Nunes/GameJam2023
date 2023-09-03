@@ -9,6 +9,8 @@ TagManager:
   - Lever
   - LeverDoor
   - Interactable
+  - Game End Panel
+  - Game End Text
   - Access Card
   - AccessCardDoor
   - Storage Place
