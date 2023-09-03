@@ -7,10 +7,11 @@ public class VideoManager : MonoBehaviour
 {
 
     public VideoPlayer player;
+    public Canvas canvas;
     bool isPlayerStarted = false;
     void Start()
     {
-        player.Play();
+        canvas.gameObject.SetActive(false);
     }
     void Update()
     {
@@ -22,6 +23,7 @@ public class VideoManager : MonoBehaviour
         else if (isPlayerStarted && !player.isPlaying)
         {
             this.gameObject.SetActive(false);
+            canvas.gameObject.SetActive(true);
         }
     }
 }
