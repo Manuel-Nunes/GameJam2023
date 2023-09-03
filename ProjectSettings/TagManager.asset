@@ -9,6 +9,8 @@ TagManager:
   - Lever
   - LeverDoor
   - Interactable
+  - Game End Panel
+  - Game End Text
   - Access Card
   - AccessCardDoor
   - Storage Place
@@ -16,6 +18,8 @@ TagManager:
   - Storage Place Oxygen Mask
   - Oxygen Mask
   - Storage Place No Items
+  - Engine
+  - Switch
   layers:
   - Default
   - TransparentFX

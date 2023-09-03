@@ -1,12 +1,10 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class AccessCardDoorController : MonoBehaviour
 {
     private bool isAccessCardPickedUp = false;
     private GameObject accessCard;
-    public Animator[] AccessCardDoorAnimators;
+    public GameObject[] LeverDoors;
     
     public AudioClip DoorOpen;
 
@@ -20,8 +18,10 @@ public class AccessCardDoorController : MonoBehaviour
         source = gameObject.AddComponent<AudioSource>();
 
         // access card door set to closed 
-        foreach (Animator accessCardDoorAnimator in AccessCardDoorAnimators)
-            accessCardDoorAnimator.SetBool("DoorIsOpen", false);
+        foreach (GameObject leverDoor in LeverDoors)
+        {
+            leverDoor.transform.Rotate(0, 0, 0);
+        }
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -46,7 +46,10 @@ public class AccessCardDoorController : MonoBehaviour
         Destroy(accessCard, source.clip.length);
 
         // opening door
-        foreach (Animator DoorAnimator in AccessCardDoorAnimators)
-            DoorAnimator.SetBool("DoorIsOpen", true);
+        foreach (GameObject leverDoor in LeverDoors)
+        {
+            leverDoor.transform.Rotate(0, 0, 90);
+            leverDoor.GetComponent<BoxCollider2D>().enabled = false;
+        }
     }
 }
