@@ -102895,6 +102895,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6814215796335238839, guid: a2d9636b79eb70648b4f629a00016b41, type: 3}
   m_PrefabInstance: {fileID: 548098984}
   m_PrefabAsset: {fileID: 0}
+--- !u!95 &548098986 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 4202553053666674678, guid: a2d9636b79eb70648b4f629a00016b41, type: 3}
+  m_PrefabInstance: {fileID: 548098984}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &567528937
 GameObject:
   m_ObjectHideFlags: 0
@@ -103849,11 +103854,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5524284687364088365, guid: 42b075bbc1b8d6449b7eb903497824a1, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 74.98
+      value: 87.56
       objectReference: {fileID: 0}
     - target: {fileID: 5524284687364088365, guid: 42b075bbc1b8d6449b7eb903497824a1, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 16.83
+      value: 31.59
       objectReference: {fileID: 0}
     - target: {fileID: 5524284687364088365, guid: 42b075bbc1b8d6449b7eb903497824a1, type: 3}
       propertyPath: m_LocalPosition.z
@@ -126798,6 +126803,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6814215796335238839, guid: a2d9636b79eb70648b4f629a00016b41, type: 3}
   m_PrefabInstance: {fileID: 1838440463}
   m_PrefabAsset: {fileID: 0}
+--- !u!95 &1838440465 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 4202553053666674678, guid: a2d9636b79eb70648b4f629a00016b41, type: 3}
+  m_PrefabInstance: {fileID: 1838440463}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1964846101
 GameObject:
   m_ObjectHideFlags: 0
@@ -127552,6 +127562,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Lever 2D platform
       objectReference: {fileID: 0}
+    - target: {fileID: 8274292238562230823, guid: f54bd2f220a51ac4ba0b2639b74c21d4, type: 3}
+      propertyPath: DoorAnimators.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8274292238562230823, guid: f54bd2f220a51ac4ba0b2639b74c21d4, type: 3}
+      propertyPath: DoorAnimators.Array.data[0]
+      value: 
+      objectReference: {fileID: 548098986}
+    - target: {fileID: 8274292238562230823, guid: f54bd2f220a51ac4ba0b2639b74c21d4, type: 3}
+      propertyPath: DoorAnimators.Array.data[1]
+      value: 
+      objectReference: {fileID: 1838440465}
     - target: {fileID: 8493181744007644794, guid: f54bd2f220a51ac4ba0b2639b74c21d4, type: 3}
       propertyPath: m_LocalPosition.x
       value: 89.29
