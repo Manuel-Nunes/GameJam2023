@@ -27,24 +27,24 @@ public class GameController : MonoBehaviour
             case "Engine":
                 if (hasPower)
                 {
-                    ShowModal("Engine is on", 2f);
+                    ShowModal("Engine is on", 2);
                     //To do: remove modal and show game end functionality
                 }
                 else
                 {
 
-                    ShowModal("The spaceship has no power!", 2f);
+                    ShowModal("The spaceship has no power!", 2);
                 }
                 break;
 
-            case "Switch":
+            case "PowerSwitch":
                 if (GameObject.FindGameObjectWithTag("Access Card") == null)
                 {
                     hasPower = !hasPower;
                 }
                 else
                 {
-                    ShowModal("You have no access", 2f);
+                    ShowModal("You have no access", 2);
                 }
                 break;
             default:
@@ -53,7 +53,7 @@ public class GameController : MonoBehaviour
         }
     }
 
-    public void ShowModal(string text, float timer)
+    public void ShowModal(string text, int timer)
     {
         popupCanva.gameObject.SetActive(true);
         popupText.text = text;
