@@ -676,21 +676,33 @@ PrefabInstance:
       propertyPath: m_Name
       value: PauseCanva
       objectReference: {fileID: 0}
+    - target: {fileID: 8317408708669337814, guid: 9cf389a7884fe31409310e3d666834fa, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8317408709592366257, guid: 9cf389a7884fe31409310e3d666834fa, type: 3}
+      propertyPath: m_Name
+      value: OptionsButton
+      objectReference: {fileID: 0}
     - target: {fileID: 8317408709592366259, guid: 9cf389a7884fe31409310e3d666834fa, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 8317408709592366259, guid: 9cf389a7884fe31409310e3d666834fa, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Target
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1601669976}
     - target: {fileID: 8317408709592366259, guid: 9cf389a7884fe31409310e3d666834fa, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
-      value: NavigateToMainMenu
+      value: DeactivateInput
       objectReference: {fileID: 0}
     - target: {fileID: 8317408709592366259, guid: 9cf389a7884fe31409310e3d666834fa, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
-      value: PauseController, Assembly-CSharp
+      value: UnityEngine.InputSystem.PlayerInput, Unity.InputSystem
+      objectReference: {fileID: 0}
+    - target: {fileID: 8317408709592366259, guid: 9cf389a7884fe31409310e3d666834fa, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9cf389a7884fe31409310e3d666834fa, type: 3}
@@ -1234,6 +1246,17 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 3.1484718, y: 1.0876479}
   m_EdgeRadius: 0
+--- !u!114 &1601669976 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4916115701198092090, guid: 42b075bbc1b8d6449b7eb903497824a1, type: 3}
+  m_PrefabInstance: {fileID: 501001592}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!82 &1795264063 stripped
 AudioSource:
   m_CorrespondingSourceObject: {fileID: 4738109291006711606, guid: dd2b582b9dce7ab44878ac63a6fb0815, type: 3}
@@ -1920,8 +1943,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8580207755217056269, guid: e11814be311e0914eb683dccea4996c6, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8580207755217056304, guid: e11814be311e0914eb683dccea4996c6, type: 3}
+      propertyPath: mainAudio
+      value: 
+      objectReference: {fileID: 1795264063}
+    - target: {fileID: 8580207755217056304, guid: e11814be311e0914eb683dccea4996c6, type: 3}
+      propertyPath: playerInput
+      value: 
+      objectReference: {fileID: 1601669976}
     - target: {fileID: 8580207755217056304, guid: e11814be311e0914eb683dccea4996c6, type: 3}
       propertyPath: canvases.Array.size
       value: 1
