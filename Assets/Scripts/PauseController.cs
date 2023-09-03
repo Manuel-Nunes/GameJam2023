@@ -7,6 +7,6 @@ public class PauseController : MonoBehaviour
 {
     public void NavigateToMainMenu()
     {
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
     }
 }
