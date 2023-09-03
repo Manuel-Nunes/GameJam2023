@@ -9,19 +9,30 @@ public class ButtonController : MonoBehaviour
     private bool isAccessCardPickedUp = false;
     private bool isOxygenMaskPickedUp = false;
     // Start is called before the first frame update
-    public Text hint;
-    void Update()
-    {
-
-        isAccessCardPickedUp = GameObject.FindGameObjectWithTag(" Storage Place Access Card") != null;
-        isOxygenMaskPickedUp =  GameObject.FindGameObjectWithTag(" Storage Place Oxygen Mask") != null;
-
-    }
+    public Text hint ;
 
     // Update is called once per frame
     public void HintClick()
-    {   
-        // hint.SetActive(true);
+    {  
+        Debug.Log(GameObject.FindGameObjectWithTag("Access Card"));
+        if (GameObject.FindGameObjectWithTag("Access Card") == null){
+            isAccessCardPickedUp = true;
+        }
+        else {
+            isAccessCardPickedUp = false;
+        }
+
+        if (GameObject.FindGameObjectWithTag("Oxygen Mask") == null){
+             isOxygenMaskPickedUp = true;
+        }
+        else {
+            isOxygenMaskPickedUp = false;
+        }
+     
+        Debug.Log(isAccessCardPickedUp);
+        Debug.Log(isOxygenMaskPickedUp);
+
+        hint.enabled = true;
         if (!isAccessCardPickedUp && !isOxygenMaskPickedUp){
             hint.text = "someone lost their access card in the canteen";
 
