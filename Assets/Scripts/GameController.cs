@@ -41,6 +41,7 @@ public class GameController : MonoBehaviour
                 if (GameObject.FindGameObjectWithTag("Access Card") == null)
                 {
                     hasPower = !hasPower;
+                    Debug.Log("Power on");
                 }
                 else
                 {
