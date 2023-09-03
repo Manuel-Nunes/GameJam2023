@@ -18,6 +18,8 @@ TagManager:
   - Storage Place Oxygen Mask
   - Oxygen Mask
   - Storage Place No Items
+  - Engine
+  - Switch
   layers:
   - Default
   - TransparentFX
