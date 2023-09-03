@@ -7,6 +7,7 @@ public class GameManagementController : MonoBehaviour
 {
     public void Restart()
     {
+        Debug.Log("Load Scene?");
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 }
