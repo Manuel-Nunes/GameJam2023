@@ -27,7 +27,11 @@ public class PlayerAbility : MonoBehaviour
         if (Physics2D.IsTouchingLayers(PlayerTeleportTarget.Collider,LayerMask.GetMask("GameWalls"))) {
             return;
         }
-            
+        
+        // PlayerDefinition.PlayerTeleportAnimator.TeleportAnimator.SetBool("");
+    }
+
+    public void DoTeleport(){
         this.transform.position = GetTeleportLocation( this.gameObject, IsInPast);
         IsInPast = !IsInPast;
     }

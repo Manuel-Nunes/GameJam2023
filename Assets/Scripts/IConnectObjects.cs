@@ -10,7 +10,9 @@ public abstract class ConnectObjects: MonoBehaviour
     public abstract void UpdateObjectConnection();
 
     public void FixedUpdate(){
-      if (Target != null && Passenger != null)
+      if (Target != null && Passenger != null){
+
         UpdateObjectConnection();
+      }
     }
 }

@@ -22,6 +22,8 @@ public class PlayerDefinition : MonoBehaviour
 
     public Rigidbody2D PlayerBody2D;
 
+    public PlayerTeleportAnimatorDefinition PlayerTeleportAnimator;
+
     public void EnableMovement(){
         this.PlayerActionInput.Enable();
         this.IsControlable = true;
