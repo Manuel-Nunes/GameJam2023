@@ -17,6 +17,8 @@ public class FireRoomFutureLogic : MonoBehaviour
 
     public TilemapRenderer FutureFireLayer;
 
+    public GameEndController GameEndController;
+
     public void OnTriggerEnter2D(Collider2D col)
     {
         Debug.Log("Player is In FireRooms");
@@ -26,6 +28,7 @@ public class FireRoomFutureLogic : MonoBehaviour
             
         if (col.gameObject.tag ==  "Player"){
             PlayerLifeManager.KillPlayer();
+            GameEndController.DisplayMessage(false,"The fire burned you...");
         }
     }
 
