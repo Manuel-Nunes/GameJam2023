@@ -540,6 +540,14 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6995685239019214680, guid: 9cf389a7884fe31409310e3d666834fa, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1601669976}
+    - target: {fileID: 6995685239019214680, guid: 9cf389a7884fe31409310e3d666834fa, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: ActivateInput
+      objectReference: {fileID: 0}
     - target: {fileID: 6995685239296081227, guid: 9cf389a7884fe31409310e3d666834fa, type: 3}
       propertyPath: m_IsActive
       value: 1
