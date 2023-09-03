@@ -103114,6 +103114,11 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!1 &632466965 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1150964755902389203, guid: a2d9636b79eb70648b4f629a00016b41, type: 3}
+  m_PrefabInstance: {fileID: 548098984}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &634822568
 GameObject:
   m_ObjectHideFlags: 0
@@ -103955,11 +103960,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5524284687364088365, guid: 42b075bbc1b8d6449b7eb903497824a1, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 87.77
+      value: 76.82
       objectReference: {fileID: 0}
     - target: {fileID: 5524284687364088365, guid: 42b075bbc1b8d6449b7eb903497824a1, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 32.89
+      value: 19.79
       objectReference: {fileID: 0}
     - target: {fileID: 5524284687364088365, guid: 42b075bbc1b8d6449b7eb903497824a1, type: 3}
       propertyPath: m_LocalPosition.z
@@ -105019,6 +105024,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6814215796335238839, guid: a2d9636b79eb70648b4f629a00016b41, type: 3}
   m_PrefabInstance: {fileID: 1037853406}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1063186992 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1150964755902389203, guid: a2d9636b79eb70648b4f629a00016b41, type: 3}
+  m_PrefabInstance: {fileID: 1838440463}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1119853028
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -105499,6 +105509,18 @@ PrefabInstance:
       value: Access Card
       objectReference: {fileID: 0}
     - target: {fileID: 8981975246714652862, guid: 412b1b34a0424f345be5166b65855d10, type: 3}
+      propertyPath: LeverDoors.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8981975246714652862, guid: 412b1b34a0424f345be5166b65855d10, type: 3}
+      propertyPath: LeverDoors.Array.data[0]
+      value: 
+      objectReference: {fileID: 1270809446}
+    - target: {fileID: 8981975246714652862, guid: 412b1b34a0424f345be5166b65855d10, type: 3}
+      propertyPath: LeverDoors.Array.data[1]
+      value: 
+      objectReference: {fileID: 1267629532}
+    - target: {fileID: 8981975246714652862, guid: 412b1b34a0424f345be5166b65855d10, type: 3}
       propertyPath: AccessCardDoorAnimators.Array.size
       value: 2
       objectReference: {fileID: 0}
@@ -105519,6 +105541,16 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 1056699671241430386, guid: 412b1b34a0424f345be5166b65855d10, type: 3}
   m_PrefabInstance: {fileID: 1229517540}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1267629532 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1150964755902389203, guid: a2d9636b79eb70648b4f629a00016b41, type: 3}
+  m_PrefabInstance: {fileID: 1119853028}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1270809446 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1150964755902389203, guid: a2d9636b79eb70648b4f629a00016b41, type: 3}
+  m_PrefabInstance: {fileID: 1195658245}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1272320702
 PrefabInstance:
@@ -127664,9 +127696,21 @@ PrefabInstance:
       value: Lever 2D platform
       objectReference: {fileID: 0}
     - target: {fileID: 8274292238562230823, guid: f54bd2f220a51ac4ba0b2639b74c21d4, type: 3}
+      propertyPath: LeverDoors.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8274292238562230823, guid: f54bd2f220a51ac4ba0b2639b74c21d4, type: 3}
       propertyPath: DoorAnimators.Array.size
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 8274292238562230823, guid: f54bd2f220a51ac4ba0b2639b74c21d4, type: 3}
+      propertyPath: LeverDoors.Array.data[0]
+      value: 
+      objectReference: {fileID: 632466965}
+    - target: {fileID: 8274292238562230823, guid: f54bd2f220a51ac4ba0b2639b74c21d4, type: 3}
+      propertyPath: LeverDoors.Array.data[1]
+      value: 
+      objectReference: {fileID: 1063186992}
     - target: {fileID: 8274292238562230823, guid: f54bd2f220a51ac4ba0b2639b74c21d4, type: 3}
       propertyPath: DoorAnimators.Array.data[0]
       value: 
