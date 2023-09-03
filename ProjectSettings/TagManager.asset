@@ -20,6 +20,11 @@ TagManager:
   - Storage Place No Items
   - Engine
   - Switch
+  - PowKeyCardTag
+  - FireExtinguisherTag
+  - OxygenMaskTag
+  - PowerControlsTag
+  - HintTag
   layers:
   - Default
   - TransparentFX
