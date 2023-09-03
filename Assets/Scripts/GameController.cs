@@ -27,26 +27,24 @@ public class GameController : MonoBehaviour
             case "Engine":
                 if (hasPower)
                 {
-                    ShowModal("Engine is on", 2);
+                    ShowModal("Engine is on", 2f);
                     //To do: remove modal and show game end functionality
                 }
                 else
                 {
 
-                    ShowModal("The spaceship has no power!", 2);
-                    Debug.Log("Loadshedding");
+                    ShowModal("The spaceship has no power!", 2f);
                 }
                 break;
 
             case "Switch":
-                Debug.Log(GameObject.FindGameObjectWithTag("Access Card") == null);
                 if (GameObject.FindGameObjectWithTag("Access Card") == null)
                 {
                     hasPower = !hasPower;
                 }
                 else
                 {
-                    ShowModal("You have no access", 2);
+                    ShowModal("You have no access", 2f);
                 }
                 break;
             default:
