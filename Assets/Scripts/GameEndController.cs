@@ -20,11 +20,18 @@ public class GameEndController : MonoBehaviour
         {
             if (this.name.Equals("Dead Zone"))
             {
+                GameEndedPanel.GetComponent<Image>().color = new Color32(255, 0, 0, 100);  // red
                 GameEndedText.text = "You fell through a hole in the floor";
             }
             else if (this.name.Equals("Fire"))
             {
+                GameEndedPanel.GetComponent<Image>().color = new Color32(255, 0, 0, 100);  // red
                 GameEndedText.text = "The fire burned you...";
+            }
+            else if (this.name.Equals("Won"))
+            {
+                GameEndedPanel.GetComponent<Image>().color = new Color32(25, 164, 64, 100);  // green
+                GameEndedText.text = "Game Won!";
             }
 
             isPlayerDead = true;
