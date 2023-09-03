@@ -22,18 +22,20 @@ public class PlayerAbility : MonoBehaviour
             return;
         }
 
-        Debug.Log("Ability Use");
+        // Debug.Log("Ability Use");
         
         if (Physics2D.IsTouchingLayers(PlayerTeleportTarget.Collider,LayerMask.GetMask("GameWalls"))) {
             return;
         }
         
-        // PlayerDefinition.PlayerTeleportAnimator.TeleportAnimator.SetBool("");
+        Invoke(nameof(DoTeleport),1.0f);
+        PlayerDefinition.PlayerTeleportAnimator.TeleportAnimator.SetBool("PlayerIntoPortal", true );
     }
 
     public void DoTeleport(){
         this.transform.position = GetTeleportLocation( this.gameObject, IsInPast);
         IsInPast = !IsInPast;
+        PlayerDefinition.PlayerTeleportAnimator.TeleportAnimator.SetBool("PlayerIntoPortal", false );
     }
 
     private Vector3 GetTeleportLocation( GameObject Player, bool IsInPast){

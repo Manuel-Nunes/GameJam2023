@@ -9,6 +9,7 @@ public class PlayerDefinition : MonoBehaviour
     public bool IsControlable = true;
     public SpriteRenderer PlayerRender;
     public InputAction PlayerActionInput;
+    public PlayerInput PlayerInput;
     public BoxCollider2D PlayerCollider;
     public Animator PlayerAnimator;
     public CircleCollider2D PlayerInteractionCollider;
@@ -25,13 +26,14 @@ public class PlayerDefinition : MonoBehaviour
     public PlayerTeleportAnimatorDefinition PlayerTeleportAnimator;
 
     public void EnableMovement(){
-        this.PlayerActionInput.Enable();
+        this.PlayerInput.ActivateInput();
         this.IsControlable = true;
     }
     
     public void DisableMovement(){
-        this.PlayerActionInput.Disable();
+        this.PlayerInput.DeactivateInput();
         this.IsControlable = false;
+        Debug.Log("Player can move: "+this.PlayerActionInput.enabled);
     }
 
     public void KillPlayer(){

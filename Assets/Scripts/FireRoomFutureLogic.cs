@@ -8,16 +8,18 @@ public class FireRoomFutureLogic : MonoBehaviour
 {
     public bool IsOnFire = true;
     
+    public List<GameObject> FireRoomDoors = new List<GameObject>();
     public BoxCollider2D FireRoomCollider; 
-    public Tilemap FoamFireLayer;
+    public TilemapRenderer FoamFireLayer;
 
     public PlayerLifeManager PlayerLifeManager;
     public Light2D RoomLight;
 
-    public Tilemap FutureFireLayer;
+    public TilemapRenderer FutureFireLayer;
 
     public void OnTriggerEnter2D(Collider2D col)
     {
+        Debug.Log("Player is In FireRooms");
         if ( !IsOnFire){
             return;
         }
@@ -32,7 +34,10 @@ public class FireRoomFutureLogic : MonoBehaviour
         this.RoomLight.enabled = false;
         this.IsOnFire = false;
         this.FutureFireLayer.enabled = false;
-        this.FoamFireLayer.enabled = false;
+        this.FoamFireLayer.enabled = true;
+        foreach (GameObject FireRoomDoors in FireRoomDoors){
+            FireRoomDoors.SetActive(false) ;
+        }
     }
 
     public void LightFire(){
@@ -40,6 +45,9 @@ public class FireRoomFutureLogic : MonoBehaviour
         this.RoomLight.enabled = true;
         this.IsOnFire = true;
         this.FutureFireLayer.enabled = true;
-        this.FoamFireLayer.enabled = true;
+        this.FoamFireLayer.enabled = false;
+        foreach (GameObject FireRoomDoors in FireRoomDoors){
+            FireRoomDoors.SetActive(true) ;
+        }
     }
 }
