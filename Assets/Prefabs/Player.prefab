@@ -16,6 +16,9 @@ GameObject:
   - component: {fileID: 2435290882209298654}
   - component: {fileID: 8700583442589176274}
   - component: {fileID: 9167847105234090221}
+  - component: {fileID: 458351805871568071}
+  - component: {fileID: 8632017196500659504}
+  - component: {fileID: 99471830918626813}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -281,3 +284,53 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &458351805871568071
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4678032463253488410}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4d4a51e844794f4db0951fbd3be96da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &8632017196500659504
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4678032463253488410}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad2025c924d1b8d4eaee485a8f5371a4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PlayerRender: {fileID: 7002101554287020527}
+  PlayerActionInput:
+    m_Name: Player Action Input
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: ee576d00-da43-4ae0-826d-ea1a8a3978a2
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings: []
+    m_Flags: 0
+  PlayerCollider: {fileID: 2435290882209298654}
+  PlayerAnimator: {fileID: 9167847105234090221}
+--- !u!114 &99471830918626813
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4678032463253488410}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6fdf9c88b24fe2428adc49c05afb012, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  popupCanva: {fileID: 0}
+  playerInput: {fileID: 4916115701198092090}
