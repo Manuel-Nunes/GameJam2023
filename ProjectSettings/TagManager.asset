@@ -27,6 +27,7 @@ TagManager:
   - OxygenMaskTag
   - PowerControlsTag
   - PowerSwitch
+  - Extinguisher
   layers:
   - Default
   - TransparentFX
