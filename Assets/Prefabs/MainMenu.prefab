@@ -620,8 +620,8 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1115484435583645489}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0.3295887}
+  m_AnchorMin: {x: 0, y: 0.8564}
+  m_AnchorMax: {x: 1, y: 0.9999999}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -932,8 +932,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 6.8135986, y: 290.69067}
-  m_SizeDelta: {x: 370.3338, y: 867.2009}
+  m_AnchoredPosition: {x: 6.8135986, y: -852.2836}
+  m_SizeDelta: {x: 370.3338, y: 1990.3872}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &2264182916650504297
 CanvasRenderer:
@@ -974,7 +974,7 @@ MonoBehaviour:
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
+    m_VerticalOverflow: 1
     m_LineSpacing: 1
   m_Text: "Developers:\nManuel Nunes\nPalesa Mpe\nRaaga Krishna Velthapu\nKarishma
     George\nJacques Griesel\n\n  \n\nAssets used:\nName: Laboratory Tileset Revamped
@@ -2861,8 +2861,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 6452911653349544918}
   m_HandleRect: {fileID: 6230528696875529238}
   m_Direction: 2
-  m_Value: 0
-  m_Size: 0.99998474
+  m_Value: 0.99999994
+  m_Size: 0.14360002
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
