@@ -912,6 +912,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 36.54568
       objectReference: {fileID: 0}
+    - target: {fileID: 5116259069079966485, guid: 989e179a96ad8b64b98c36c3c9fc2382, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -547.548
+      objectReference: {fileID: 0}
     - target: {fileID: 5824137382645773554, guid: 989e179a96ad8b64b98c36c3c9fc2382, type: 3}
       propertyPath: m_LocalPosition.z
       value: 0
@@ -1044,6 +1048,18 @@ PrefabInstance:
       propertyPath: m_audioClip
       value: 
       objectReference: {fileID: 8300000, guid: 3ad72a664a57f7e4aad5a124949d47f1, type: 3}
+    - target: {fileID: 6230528696875529238, guid: 989e179a96ad8b64b98c36c3c9fc2382, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6230528696875529238, guid: 989e179a96ad8b64b98c36c3c9fc2382, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6230528696875529238, guid: 989e179a96ad8b64b98c36c3c9fc2382, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6240257617545021692, guid: 989e179a96ad8b64b98c36c3c9fc2382, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
       value: 2
