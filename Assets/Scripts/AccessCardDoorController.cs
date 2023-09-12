@@ -1,4 +1,6 @@
+using TMPro;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class AccessCardDoorController : MonoBehaviour
 {
@@ -43,7 +45,8 @@ public class AccessCardDoorController : MonoBehaviour
         isAccessCardPickedUp = true;
 
         // remove access card from map 
-        Destroy(accessCard, source.clip.length);
+        //Destroy(accessCard, source.clip.length);
+        accessCard.SetActive(false);
 
         // opening door
         foreach (GameObject leverDoor in LeverDoors)
@@ -52,4 +55,5 @@ public class AccessCardDoorController : MonoBehaviour
             leverDoor.GetComponent<BoxCollider2D>().enabled = false;
         }
     }
+
 }

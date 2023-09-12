@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.U2D;
 using UnityEngine.UI;
 
 public class GameController : MonoBehaviour
@@ -15,6 +16,7 @@ public class GameController : MonoBehaviour
 
     void Start()
     {
+        Debug.Log(this.gameObject.name);
         popupCanva.gameObject.SetActive(false);
         popupText = popupCanva.GetComponentInChildren<TMP_Text>();
 
@@ -22,7 +24,32 @@ public class GameController : MonoBehaviour
 
     public void OnCollisionEnter2D(Collision2D collision)
     {
-        switch (collision.gameObject.tag)
+        InteractionHandler(collision.gameObject.tag);
+    }
+
+    public void OnTriggerEnter2D(Collider2D collision)
+    {
+        InteractionHandler(collision.gameObject.tag);
+    }
+
+    public void ShowModal(string text, int timer)
+    {
+        popupCanva.gameObject.SetActive(true);
+        popupText.text = text;
+        playerInput.DeactivateInput();
+        Invoke("ClosePopup", timer);
+    }
+
+    private void ClosePopup()
+    {
+        // Deactivate the popup canvas
+        popupCanva.gameObject.SetActive(false);
+        playerInput.ActivateInput();
+    }
+
+    private void InteractionHandler(string tag)
+    {
+        switch (tag)
         {
             case "Engine":
                 if (hasPower)
@@ -40,9 +67,12 @@ public class GameController : MonoBehaviour
             case "PowerSwitch":
                 if (GameObject.FindGameObjectWithTag("Access Card") == null)
                 {
-                    hasPower = !hasPower;
-                    Debug.Log("Power on");
-                    ShowModal("Emergency Power is on", 2);
+                    if (!hasPower)
+                    {
+                        hasPower = true;
+                        Debug.Log("Power on");
+                        ShowModal("Emergency Power is on", 2);
+                    }
                 }
                 else
                 {
@@ -53,21 +83,6 @@ public class GameController : MonoBehaviour
                 break;
 
         }
-    }
-
-    public void ShowModal(string text, int timer)
-    {
-        popupCanva.gameObject.SetActive(true);
-        popupText.text = text;
-        playerInput.DeactivateInput();
-        Invoke("ClosePopup", timer);
-    }
-
-    private void ClosePopup()
-    {
-        // Deactivate the popup canvas
-        popupCanva.gameObject.SetActive(false);
-        playerInput.ActivateInput();
     }
 
 }

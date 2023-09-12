@@ -1,7 +1,3 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
-using UnityEditor.Build;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -17,6 +13,7 @@ public class GameEndController : MonoBehaviour
     public Text GameEndedText;
 
     public PlayerLifeManager PlayerLifeManager;
+    public GameObject[] PlayerOptions;
 
     void Start()
     {
@@ -39,32 +36,38 @@ public class GameEndController : MonoBehaviour
 
         if (this.name.Equals("Dead Zone"))
         {
+            Debug.Log("Dead Zone");
             DieToDeathZone();
             return;
         }
 
         if (this.name.Equals("Fire") || this.name.Equals("FutureFireRoomFire"))
         {
+            Debug.Log("Fire");
             DieToFireRoom();
             return;
         }
 
         if (this.name.Equals("NoO2Zone"))
         {
+            Debug.Log("NoO2Zone");
             Suffocate();
             return;
         }
 
-        if (gameController != null){
-            
+        if (gameController != null)
+        {
+            Debug.Log("gameController");
             if (this.name.Equals("Won") && gameController.hasPower)
             {
+                Debug.Log("WON");
                 WonGame();
                 return;
             }
 
             if (this.name.Equals("Won") && !gameController.hasPower)
             {
+                Debug.Log("No power");
                 gameController.ShowModal("The spaceship has no power!", 1);
             }
         }
@@ -81,35 +84,45 @@ public class GameEndController : MonoBehaviour
         resolveNonPlayerInteractions0(collision.gameObject);
     }
 
-    private void UnAlivePlayer(){
-
+    private void UnAlivePlayer()
+    {
         isPlayerDead = true;
         PlayerLifeManager.KillPlayer();
         GameEndedPanel.SetActive(true);
+        DisableOptions();
     }
 
     private void DieToDeathZone(){
         GameEndedPanel.GetComponent<Image>().color = new Color32(255, 0, 0, 100);  // red
         GameEndedText.text = "You fell through a hole in the floor, wrong place, wrong time";
         UnAlivePlayer();
+        DisableOptions();
     }
 
     private void DieToFireRoom(){
         GameEndedPanel.GetComponent<Image>().color = new Color32(255, 0, 0, 100);  // red
         GameEndedText.text = "You were burned to a chrisp, if only the fire could be extinguished";
         UnAlivePlayer();
+        DisableOptions();
     }
 
     private void Suffocate(){
         GameEndedPanel.GetComponent<Image>().color = new Color32(255, 0, 0, 100);  // red
         GameEndedText.text = "You suffocated...";
         UnAlivePlayer();
+        DisableOptions();
     }
 
-    private void WonGame(){
+    private void WonGame()
+    {
+        Debug.Log("WonGame function called");
         GameEndedPanel.GetComponent<Image>().color = new Color32(25, 164, 64, 100);  // green
         GameEndedText.text = "You safely navigated the asteroid field!";
+        
         isPlayerDead = true;
+        PlayerLifeManager.EndPlayer();
+        GameEndedPanel.SetActive(true);
+        DisableOptions();
     }
 
     public void DisplayMessage(bool Good, string Message){
@@ -124,6 +137,7 @@ public class GameEndController : MonoBehaviour
 
         isPlayerDead = true;
         GameEndedPanel.SetActive(true);
+        DisableOptions();
     }
 
     public void DisbleDeathZone(){
@@ -132,6 +146,7 @@ public class GameEndController : MonoBehaviour
 
             this.DeathZoneCollider.enabled = false;
             this.gameObject.SetActive(false);
+            EnableOptions();
         }
     }
 
@@ -141,6 +156,25 @@ public class GameEndController : MonoBehaviour
             Debug.Log(" Death zone enabled: "+ this.name);
             this.DeathZoneCollider.enabled = true;
             this.gameObject.SetActive(true);
+            DisableOptions();
+        }
+    }
+
+    public void DisableOptions()
+    {
+        Debug.Log("disable options");
+        foreach(GameObject PlayerOption in PlayerOptions)
+        {
+            PlayerOption.SetActive(false);
+        }
+    }
+
+    public void EnableOptions()
+    {
+        Debug.Log("enable options");
+        foreach (GameObject PlayerOption in PlayerOptions)
+        {
+            PlayerOption.SetActive(true);
         }
     }
 }

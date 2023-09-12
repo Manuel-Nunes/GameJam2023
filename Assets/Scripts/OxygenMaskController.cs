@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class OxygenMaskController : MonoBehaviour
@@ -26,4 +24,5 @@ public class OxygenMaskController : MonoBehaviour
             NoO2DeadZone.SetActive(false);
         }
     }
+
 }

@@ -12,4 +12,9 @@ public class PlayerLifeManager : MonoBehaviour
         PlayerDef.KillPlayer();
         PlayerDef.PlayerRender.sprite = PlayerDeath;
     }
+
+    public void EndPlayer()
+    {
+        PlayerDef.KillPlayer();
+    }
 }
