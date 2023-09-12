@@ -103192,6 +103192,14 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2999678250165867096, guid: c83e0c3702b464549825c643a6e316a8, type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1694883530}
+    - target: {fileID: 2999678250165867096, guid: c83e0c3702b464549825c643a6e316a8, type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SetVolume
+      objectReference: {fileID: 0}
     - target: {fileID: 3081780115563302074, guid: c83e0c3702b464549825c643a6e316a8, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
