@@ -8,7 +8,7 @@ using UnityEngine.UI;
 public class GameController : MonoBehaviour
 {
 
-    bool hasPower = false;
+    public bool hasPower = false;
     public Canvas popupCanva;
     private TMP_Text popupText;
     public PlayerInput playerInput;
@@ -20,7 +20,7 @@ public class GameController : MonoBehaviour
 
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
+    public void OnCollisionEnter2D(Collision2D collision)
     {
         switch (collision.gameObject.tag)
         {

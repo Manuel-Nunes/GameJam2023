@@ -10,9 +10,9 @@ GameObject:
   m_Component:
   - component: {fileID: 3504617354955831685}
   - component: {fileID: 4730923420347413245}
-  - component: {fileID: 3373214322169579331}
   - component: {fileID: 3249630095235890142}
   - component: {fileID: 1949497430972402216}
+  - component: {fileID: 7002241920963505710}
   m_Layer: 0
   m_Name: FutureFireRoom
   m_TagString: Untagged
@@ -85,51 +85,6 @@ MonoBehaviour:
   - {x: 5.56, y: -5.49, z: 0}
   - {x: 5.56, y: 5.51, z: 0}
   - {x: -6.44, y: 5.51, z: 0}
---- !u!61 &3373214322169579331
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4368428604189342250}
-  m_Enabled: 0
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 12, y: 12.43229}
-  m_EdgeRadius: 0
 --- !u!114 &3249630095235890142
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -146,7 +101,7 @@ MonoBehaviour:
   FireRoomDoors:
   - {fileID: 0}
   - {fileID: 0}
-  FireRoomCollider: {fileID: 3373214322169579331}
+  FireRoomCollider: {fileID: 0}
   FoamFireLayer: {fileID: 0}
   PlayerLifeManager: {fileID: 0}
   RoomLight: {fileID: 4730923420347413245}
@@ -164,5 +119,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4fbe12a0d1e684d4abbd399c7f8fc4e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameController: {fileID: 0}
   GameEndedPanel: {fileID: 0}
   GameEndedText: {fileID: 0}
+  PlayerLifeManager: {fileID: 0}
+--- !u!114 &7002241920963505710
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4368428604189342250}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c94e305b784d6ac4b82e25344053df20, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Target: {fileID: 4368428604189342250}
+  Passenger: {fileID: 0}
+  MountX: 1
+  MountY: 1
+  MountZ: 1
+  MountOffset: {x: 0, y: 0, z: 0}
