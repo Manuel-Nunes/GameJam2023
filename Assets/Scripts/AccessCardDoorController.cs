@@ -12,10 +12,6 @@ public class AccessCardDoorController : MonoBehaviour
 
     private AudioSource source;
 
-    public Canvas popupCanva;
-    private TMP_Text popupText;
-    public PlayerInput playerInput;
-
     void Start()
     {
         accessCard = GameObject.FindGameObjectWithTag("Access Card");
@@ -28,9 +24,6 @@ public class AccessCardDoorController : MonoBehaviour
         {
             leverDoor.transform.Rotate(0, 0, 0);
         }
-
-        popupCanva.gameObject.SetActive(false);
-        popupText = popupCanva.GetComponentInChildren<TMP_Text>();
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -48,13 +41,12 @@ public class AccessCardDoorController : MonoBehaviour
         source.clip = DoorOpen;
         source.Play();
 
-        ShowModal("Access Card opens the Power door", (int)source.clip.length);
-
         // set access card picked up to true
         isAccessCardPickedUp = true;
 
         // remove access card from map 
-        Destroy(accessCard, source.clip.length);
+        //Destroy(accessCard, source.clip.length);
+        accessCard.SetActive(false);
 
         // opening door
         foreach (GameObject leverDoor in LeverDoors)
@@ -64,18 +56,4 @@ public class AccessCardDoorController : MonoBehaviour
         }
     }
 
-    public void ShowModal(string text, int timer)
-    {
-        popupCanva.gameObject.SetActive(true);
-        popupText.text = text;
-        playerInput.DeactivateInput();
-        Invoke("ClosePopup", timer);
-    }
-
-    private void ClosePopup()
-    {
-        // Deactivate the popup canvas
-        popupCanva.gameObject.SetActive(false);
-        playerInput.ActivateInput();
-    }
 }

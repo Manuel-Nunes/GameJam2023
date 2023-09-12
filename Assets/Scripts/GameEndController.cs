@@ -1,7 +1,3 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
-using UnityEditor.Build;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -40,32 +36,38 @@ public class GameEndController : MonoBehaviour
 
         if (this.name.Equals("Dead Zone"))
         {
+            Debug.Log("Dead Zone");
             DieToDeathZone();
             return;
         }
 
         if (this.name.Equals("Fire") || this.name.Equals("FutureFireRoomFire"))
         {
+            Debug.Log("Fire");
             DieToFireRoom();
             return;
         }
 
         if (this.name.Equals("NoO2Zone"))
         {
+            Debug.Log("NoO2Zone");
             Suffocate();
             return;
         }
 
-        if (gameController != null){
-            
+        if (gameController != null)
+        {
+            Debug.Log("gameController");
             if (this.name.Equals("Won") && gameController.hasPower)
             {
+                Debug.Log("WON");
                 WonGame();
                 return;
             }
 
             if (this.name.Equals("Won") && !gameController.hasPower)
             {
+                Debug.Log("No power");
                 gameController.ShowModal("The spaceship has no power!", 1);
             }
         }
@@ -82,8 +84,8 @@ public class GameEndController : MonoBehaviour
         resolveNonPlayerInteractions0(collision.gameObject);
     }
 
-    private void UnAlivePlayer(){
-
+    private void UnAlivePlayer()
+    {
         isPlayerDead = true;
         PlayerLifeManager.KillPlayer();
         GameEndedPanel.SetActive(true);
@@ -111,10 +113,15 @@ public class GameEndController : MonoBehaviour
         DisableOptions();
     }
 
-    private void WonGame(){
+    private void WonGame()
+    {
+        Debug.Log("WonGame function called");
         GameEndedPanel.GetComponent<Image>().color = new Color32(25, 164, 64, 100);  // green
         GameEndedText.text = "You safely navigated the asteroid field!";
+        
         isPlayerDead = true;
+        PlayerLifeManager.EndPlayer();
+        GameEndedPanel.SetActive(true);
         DisableOptions();
     }
 

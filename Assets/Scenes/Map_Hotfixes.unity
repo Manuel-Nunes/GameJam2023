@@ -3183,6 +3183,67 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 3234853752890645905, guid: 43a337717d8a80847a6016242152e33a, type: 3}
   m_PrefabInstance: {fileID: 552526739}
   m_PrefabAsset: {fileID: 0}
+--- !u!61 &266002123
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 266002120}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.0073103905, y: -0.006760597}
+  m_SpriteTilingProperty:
+    border: {x: 0.5, y: 0.125, z: 0.0625, w: 0.21875}
+    pivot: {x: 0.72889733, y: 0.43237114}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 0.32, y: 0.37}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.5568261, y: 0.70560646}
+  m_EdgeRadius: 0
+--- !u!114 &266002124
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 266002120}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b68e866656718148aaca039eb209e06, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  popupCanva: {fileID: 2102987793}
+  playerInput: {fileID: 2008308575}
+  popUpMessage: Unfortunately, this one has rusted to the floor...
+  hasShown: 0
 --- !u!1 &311412454
 GameObject:
   m_ObjectHideFlags: 0
@@ -103267,6 +103328,27 @@ Animator:
   m_CorrespondingSourceObject: {fileID: 4202553053666674678, guid: a2d9636b79eb70648b4f629a00016b41, type: 3}
   m_PrefabInstance: {fileID: 548098984}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &549813507 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2398578057075509287, guid: f256cff7e82da4848b5d8319823f30cc, type: 3}
+  m_PrefabInstance: {fileID: 1705230217}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &549813511
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 549813507}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b68e866656718148aaca039eb209e06, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  popupCanva: {fileID: 2102987793}
+  playerInput: {fileID: 2008308575}
+  popUpMessage: Oxygen Tank picked up
+  hasShown: 0
 --- !u!1001 &552526739
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -103322,7 +103404,13 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3234853752890645905, guid: 43a337717d8a80847a6016242152e33a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 266002123}
+    - targetCorrespondingSourceObject: {fileID: 3234853752890645905, guid: 43a337717d8a80847a6016242152e33a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 266002124}
   m_SourcePrefab: {fileID: 100100000, guid: 43a337717d8a80847a6016242152e33a, type: 3}
 --- !u!1 &567528937
 GameObject:
@@ -103335,6 +103423,7 @@ GameObject:
   - component: {fileID: 567528938}
   - component: {fileID: 567528939}
   - component: {fileID: 567528940}
+  - component: {fileID: 567528941}
   m_Layer: 0
   m_Name: CockpitControls-Past
   m_TagString: PowKeyCardTag
@@ -103454,6 +103543,22 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &567528941
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 567528937}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b68e866656718148aaca039eb209e06, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  popupCanva: {fileID: 2102987793}
+  playerInput: {fileID: 2008308575}
+  popUpMessage: Cannot change trajectory now!
+  hasShown: 0
 --- !u!224 &568882460 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 770033494716160710, guid: 9cf389a7884fe31409310e3d666834fa, type: 3}
@@ -103702,6 +103807,11 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!1 &602353391 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2005909939999237424, guid: 412b1b34a0424f345be5166b65855d10, type: 3}
+  m_PrefabInstance: {fileID: 1229517540}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &632466965 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1150964755902389203, guid: a2d9636b79eb70648b4f629a00016b41, type: 3}
@@ -105619,10 +105729,29 @@ PrefabInstance:
       propertyPath: m_Name
       value: FireExtinguisher - Past
       objectReference: {fileID: 0}
+    - target: {fileID: 4924106294421633780, guid: fd4fb4df921d40b48b7ecf67965d2c91, type: 3}
+      propertyPath: m_Size.x
+      value: 0.5274582
+      objectReference: {fileID: 0}
+    - target: {fileID: 4924106294421633780, guid: fd4fb4df921d40b48b7ecf67965d2c91, type: 3}
+      propertyPath: m_Size.y
+      value: 0.71292686
+      objectReference: {fileID: 0}
+    - target: {fileID: 4924106294421633780, guid: fd4fb4df921d40b48b7ecf67965d2c91, type: 3}
+      propertyPath: m_Offset.x
+      value: -0.009296417
+      objectReference: {fileID: 0}
+    - target: {fileID: 4924106294421633780, guid: fd4fb4df921d40b48b7ecf67965d2c91, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.0009737015
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4735243535095722700, guid: fd4fb4df921d40b48b7ecf67965d2c91, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1644329386}
   m_SourcePrefab: {fileID: 100100000, guid: fd4fb4df921d40b48b7ecf67965d2c91, type: 3}
 --- !u!1 &1023493675
 GameObject:
@@ -105636,6 +105765,7 @@ GameObject:
   - component: {fileID: 1023493679}
   - component: {fileID: 1023493678}
   - component: {fileID: 1023493677}
+  - component: {fileID: 1023493680}
   m_Layer: 0
   m_Name: CryoChamberColide
   m_TagString: Untagged
@@ -105790,6 +105920,22 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!114 &1023493680
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1023493675}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b68e866656718148aaca039eb209e06, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  popupCanva: {fileID: 2102987793}
+  playerInput: {fileID: 2008308575}
+  popUpMessage: Did you try to Time Travel [Press E]?
+  hasShown: 0
 --- !u!1 &1025530896
 GameObject:
   m_ObjectHideFlags: 0
@@ -106276,7 +106422,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1150964755902389203, guid: a2d9636b79eb70648b4f629a00016b41, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1267629535}
   m_SourcePrefab: {fileID: 100100000, guid: a2d9636b79eb70648b4f629a00016b41, type: 3}
 --- !u!95 &1119853029 stripped
 Animator:
@@ -106621,7 +106770,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1150964755902389203, guid: a2d9636b79eb70648b4f629a00016b41, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1270809449}
   m_SourcePrefab: {fileID: 100100000, guid: a2d9636b79eb70648b4f629a00016b41, type: 3}
 --- !u!4 &1195658246 stripped
 Transform:
@@ -106732,23 +106884,74 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 2005909939999237424, guid: 412b1b34a0424f345be5166b65855d10, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1229517545}
   m_SourcePrefab: {fileID: 100100000, guid: 412b1b34a0424f345be5166b65855d10, type: 3}
 --- !u!4 &1229517541 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1056699671241430386, guid: 412b1b34a0424f345be5166b65855d10, type: 3}
   m_PrefabInstance: {fileID: 1229517540}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1229517545
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 602353391}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b68e866656718148aaca039eb209e06, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  popupCanva: {fileID: 2102987793}
+  playerInput: {fileID: 2008308575}
+  popUpMessage: Access Card opens the Power door
+  hasShown: 0
 --- !u!1 &1267629532 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1150964755902389203, guid: a2d9636b79eb70648b4f629a00016b41, type: 3}
   m_PrefabInstance: {fileID: 1119853028}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1267629535
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1267629532}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b68e866656718148aaca039eb209e06, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  popupCanva: {fileID: 2102987793}
+  playerInput: {fileID: 2008308575}
+  popUpMessage: You need the Access Card to open this door!
+  hasShown: 0
 --- !u!1 &1270809446 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1150964755902389203, guid: a2d9636b79eb70648b4f629a00016b41, type: 3}
   m_PrefabInstance: {fileID: 1195658245}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1270809449
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1270809446}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b68e866656718148aaca039eb209e06, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  popupCanva: {fileID: 2102987793}
+  playerInput: {fileID: 2008308575}
+  popUpMessage: You need the Access Card to open this door!
+  hasShown: 0
 --- !u!1001 &1359549076
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -106942,6 +107145,10 @@ PrefabInstance:
       propertyPath: GameEndedPanel
       value: 
       objectReference: {fileID: 1756654591}
+    - target: {fileID: 8274588565834298936, guid: 8b4920ff0024398468a0be79827fa26c, type: 3}
+      propertyPath: gameController
+      value: 
+      objectReference: {fileID: 2008308580}
     - target: {fileID: 8274588565834298936, guid: 8b4920ff0024398468a0be79827fa26c, type: 3}
       propertyPath: PlayerLifeManager
       value: 
@@ -128326,6 +128533,22 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 4735243535095722700, guid: fd4fb4df921d40b48b7ecf67965d2c91, type: 3}
   m_PrefabInstance: {fileID: 992122279}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1644329386
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1644329379}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b68e866656718148aaca039eb209e06, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  popupCanva: {fileID: 2102987793}
+  playerInput: {fileID: 2008308575}
+  popUpMessage: Maybe try to pick it up [Press F]...
+  hasShown: 0
 --- !u!82 &1694883529 stripped
 AudioSource:
   m_CorrespondingSourceObject: {fileID: 4738109291006711606, guid: dd2b582b9dce7ab44878ac63a6fb0815, type: 3}
@@ -128413,7 +128636,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 2398578057075509287, guid: f256cff7e82da4848b5d8319823f30cc, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 549813511}
   m_SourcePrefab: {fileID: 100100000, guid: f256cff7e82da4848b5d8319823f30cc, type: 3}
 --- !u!1001 &1711265052
 PrefabInstance:

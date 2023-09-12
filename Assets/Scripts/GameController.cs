@@ -16,6 +16,7 @@ public class GameController : MonoBehaviour
 
     void Start()
     {
+        Debug.Log(this.gameObject.name);
         popupCanva.gameObject.SetActive(false);
         popupText = popupCanva.GetComponentInChildren<TMP_Text>();
 
