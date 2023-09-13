@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.Tilemaps;
 using UnityEngine.U2D;
 using UnityEngine.UI;
 
@@ -13,6 +14,8 @@ public class GameController : MonoBehaviour
     public Canvas popupCanva;
     private TMP_Text popupText;
     public PlayerInput playerInput;
+
+    public TilemapRenderer PowerOnTileMap;
 
     void Start()
     {
@@ -72,6 +75,9 @@ public class GameController : MonoBehaviour
                         hasPower = true;
                         Debug.Log("Power on");
                         ShowModal("Emergency Power is on", 2);
+
+                        // change sprite 
+                        PowerOnTileMap.enabled = true;
                     }
                 }
                 else
